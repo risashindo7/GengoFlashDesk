@@ -33,9 +33,6 @@ class gengoFlashApp_tk:
         label.grid(column = 0, row = 12, columnspan = 2, sticky = 'EW')
         self.labelVariable.set(u"Hello !")
         
-        self.frame.grid_columnconfigure(0, weight = 1)
-        #self.frame.resizable(True, False)
-        self.frame.update()
         self.entry.focus_set()
         self.entry.selection_range(0, Tkinter.END)
         
@@ -53,10 +50,10 @@ class gengoFlashApp_tk:
         self.entry.selection_range(0, Tkinter.END)
         
     def createRadioButtons(self, listForRadio):
-        setTitles = retrieveSetNames(listForRadio - 1)
+        self.setTitles = retrieveSetNames(listForRadio - 1)
         for x in range(0, len(listForRadio)):
             Tkinter.Radiobutton(self.frame, indicatoron = 0, command = self.OnRadioClick,
-            text= setTitles[x],
+            text= self.setTitles[x],
             padx = 80,
             value= listForRadio[x],
             variable = self.radioVariable).grid(column = 0, row = (1 + x),  columnspan = 2, sticky = 'EW')
@@ -69,25 +66,52 @@ class gengoFlashApp_tk:
         
     def OnRadioClick(self):
         indexOfSet = (self.radioVariable.get() - 1)
-        self.new_window()
-        print (retrieveCards(indexOfSet))
+        cardSet = retrieveCards(indexOfSet)
+        self.new_card_window(cardSet, indexOfSet)
 
 
-    def new_window(self):
+    def new_card_window(self, cardSet, indexOfSet):
         self.newWindow = Tkinter.Toplevel(self.master)
-        self.app = CardWindow(self.newWindow)
+        self.app = CardWindow(self.newWindow, cardSet, indexOfSet)
         
 
 class CardWindow:
-    def __init__(self, master):
+    def __init__(self, master, cardSet, indexOfSet):
         self.master = master
+        self.cardSet = cardSet
+        self.index =indexOfSet 
         self.frame = Tkinter.Frame(self.master)
-        self.quitButton = Tkinter.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
-        self.quitButton.pack()
-        self.frame.pack()
+        self.initialize(master)
+        
+    def initialize(self, master):
+        self.frame.grid()
+        
+        self.showAnswerButton = Tkinter.Button(self.frame, text = 'Show answer', command = self.show_answer)
+        self.showAnswerButton.grid(column = 1, row = 2)
+        
+        self.nextButton = Tkinter.Button(self.frame, text = 'Next', width = 8, command = self.next_card)
+        self.nextButton.grid(column = 2, row = 2)
+        
+        self.previousButton = Tkinter.Button(self.frame, text = 'Previous', width = 8, command = self.previous_card)
+        self.previousButton.grid(column = 0, row = 2)
+        
+        self.questionText = Tkinter.Text(self.frame, width = 15, height = 3)
+        self.questionText.grid(column = 0, row = 0)
+        self.questionText.insert(Tkinter.INSERT, "\nQuestion")
+        
+        self.answerText = Tkinter.Text(self.frame, width = 15, height = 3)
+        self.answerText.grid(column = 2, row = 0)
 
-    def close_windows(self):
-        self.master.destroy()
+
+    def show_answer(self):
+        self.answerText.insert(Tkinter.INSERT, "\nAnswer")
+    
+    
+    def next_card(self):
+        print('')
+    
+    def previous_card(self):
+        print('')
 
 if __name__ == "__main__":
     root = Tkinter.Tk()
