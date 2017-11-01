@@ -79,7 +79,7 @@ class CardWindow:
     def __init__(self, master, cardSet, indexOfSet):
         self.master = master
         self.cardSet = cardSet
-        self.index =indexOfSet 
+        self.indexInDatabase =indexOfSet 
         self.frame = Tkinter.Frame(self.master)
         self.initialize(master)
         
