@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import tkinter as Tkinter
+import itertools
 from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
 
 class gengoFlashApp_tk:
@@ -78,7 +79,7 @@ class gengoFlashApp_tk:
 class CardWindow:
     def __init__(self, master, cardSet, indexOfSet):
         self.master = master
-        self.cardSet = cardSet
+        self.cardSet = itertools.cycle(cardSet)
         self.indexInDatabase =indexOfSet 
         self.frame = Tkinter.Frame(self.master)
         self.initialize(master)
@@ -86,32 +87,32 @@ class CardWindow:
     def initialize(self, master):
         self.frame.grid()
         
+        self.currentCard = next(self.cardSet)
+        
         self.showAnswerButton = Tkinter.Button(self.frame, text = 'Show answer', command = self.show_answer)
         self.showAnswerButton.grid(column = 1, row = 2)
         
         self.nextButton = Tkinter.Button(self.frame, text = 'Next', width = 8, command = self.next_card)
         self.nextButton.grid(column = 2, row = 2)
         
-        self.previousButton = Tkinter.Button(self.frame, text = 'Previous', width = 8, command = self.previous_card)
-        self.previousButton.grid(column = 0, row = 2)
-        
         self.questionText = Tkinter.Text(self.frame, width = 15, height = 3)
         self.questionText.grid(column = 0, row = 0)
-        self.questionText.insert(Tkinter.INSERT, "\nQuestion")
+        self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
         
         self.answerText = Tkinter.Text(self.frame, width = 15, height = 3)
         self.answerText.grid(column = 2, row = 0)
 
 
     def show_answer(self):
-        self.answerText.insert(Tkinter.INSERT, "\nAnswer")
+        self.answerText.insert(Tkinter.INSERT, '\n' + self.currentCard[1])
     
     
     def next_card(self):
-        print('')
+        self.questionText.delete(1.0 , Tkinter.END)
+        self.answerText.delete(1.0 , Tkinter.END)
+        self.currentCard = next(self.cardSet)
+        self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
     
-    def previous_card(self):
-        print('')
 
 if __name__ == "__main__":
     root = Tkinter.Tk()
