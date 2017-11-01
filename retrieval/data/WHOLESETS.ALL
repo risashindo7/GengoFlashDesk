@@ -3,16 +3,13 @@
 Dog - Chien;
 Cat - Chat;
 Horse - Cheval;
-Pig - Cochon       
+Pig - Cochon
 .I 2
 .W
+Flower - Fleur;
 Tree - Arbre;
 Grass - Herbe                                       
 .I 3
 .W
 Car - Voiture;
-Bicycle - Velo    
-.I 4
-.W
-School - Ecole;
-Block of flats - Immeuble 
+Bicycle - Velo
