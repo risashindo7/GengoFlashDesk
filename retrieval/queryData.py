@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run DeepFM.")
-    parser.add_argument('--docs', nargs='?', default='retrieval/data/med/MED.ALL',
+    parser.add_argument('--docs', nargs='?', default='retrieval/data/SETTITLES.ALL',
                         help='Path of the document file.')
 
     return parser.parse_args()
