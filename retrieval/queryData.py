@@ -58,7 +58,12 @@ def load_cardset(file, index):
         doc_split = f.read().replace('\n', ' ').replace('\r', ' ').split('.I')
     for l in doc_split[1:]:
         docs.append((''.join(re.sub(' +', ' ', l).split('.W')[1:])))
-    return docs[index]
+    listOfCardsWithHyphenAndSpaces = docs[index].split(';')
+    listOfCardsAsTuplesWithSpaces = list(map(lambda x: x.split('-'), listOfCardsWithHyphenAndSpaces))
+    listOfCardsAsTuples = list(map(lambda x: 
+        list(map(lambda y: y.strip(), x)),
+        listOfCardsAsTuplesWithSpaces))
+    return listOfCardsAsTuples
 
 
 def load_cardset_titles(file, indices):
