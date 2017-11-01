@@ -3,38 +3,39 @@
 import tkinter as Tkinter
 from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
 
-class gengoFlashApp_tk(Tkinter.Tk):
-    def __init__(self, parent):
-        Tkinter.Tk.__init__(self, parent)
-        self.parent = parent
-        self.initialize()
+class gengoFlashApp_tk:
+    def __init__(self, master):
+        self.master = master
+        self.frame = Tkinter.Frame(self.master)
+        self.initialize(master)
         
-    def initialize(self):
-        self.grid()
+    def initialize(self, master):
+        self.frame.grid()
         
         #radio selection variable
         self.radioVariable = Tkinter.IntVar()
         
+        
         self.entryVariable = Tkinter.StringVar()
         self.entry = Tkinter.Entry(
-                self, textvariable = self.entryVariable, width = 80)
+                self.frame, textvariable = self.entryVariable, width = 80)
         self.entry.grid(column = 0, row = 0, sticky = 'EW')
         self.entry.bind("<Return>", self.OnPressEnter)
         self.entryVariable.set(u"Enter keywords related to the topic")
         
-        button = Tkinter.Button(self, text = u"Search",
+        button = Tkinter.Button(self.frame, text = u"Search",
                                 command = self.OnButtonClick, width = 10)
         button.grid(column = 1, row = 0)
         
         self.labelVariable = Tkinter.StringVar()
-        label = Tkinter.Label(self, textvariable = self.labelVariable,
+        label = Tkinter.Label(self.frame, textvariable = self.labelVariable,
                               anchor = "w", fg = "white", bg = "blue")
         label.grid(column = 0, row = 12, columnspan = 2, sticky = 'EW')
         self.labelVariable.set(u"Hello !")
         
-        self.grid_columnconfigure(0, weight = 1)
-        self.resizable(True, False)
-        self.update()
+        self.frame.grid_columnconfigure(0, weight = 1)
+        #self.frame.resizable(True, False)
+        self.frame.update()
         self.entry.focus_set()
         self.entry.selection_range(0, Tkinter.END)
         
@@ -54,7 +55,7 @@ class gengoFlashApp_tk(Tkinter.Tk):
     def createRadioButtons(self, listForRadio):
         setTitles = retrieveSetNames(listForRadio - 1)
         for x in range(0, len(listForRadio)):
-            Tkinter.Radiobutton(self, indicatoron = 0, command = self.OnRadioClick,
+            Tkinter.Radiobutton(self.frame, indicatoron = 0, command = self.OnRadioClick,
             text= setTitles[x],
             padx = 80,
             value= listForRadio[x],
@@ -68,10 +69,28 @@ class gengoFlashApp_tk(Tkinter.Tk):
         
     def OnRadioClick(self):
         indexOfSet = (self.radioVariable.get() - 1)
+        self.new_window()
         print (retrieveCards(indexOfSet))
 
 
+    def new_window(self):
+        self.newWindow = Tkinter.Toplevel(self.master)
+        self.app = CardWindow(self.newWindow)
+        
+
+class CardWindow:
+    def __init__(self, master):
+        self.master = master
+        self.frame = Tkinter.Frame(self.master)
+        self.quitButton = Tkinter.Button(self.frame, text = 'Quit', width = 25, command = self.close_windows)
+        self.quitButton.pack()
+        self.frame.pack()
+
+    def close_windows(self):
+        self.master.destroy()
+
 if __name__ == "__main__":
-    app = gengoFlashApp_tk(None)
-    app.title('GengoFlash')
-    app.mainloop()
+    root = Tkinter.Tk()
+    app = gengoFlashApp_tk(root)
+    root.title('GengoFlash')
+    root.mainloop()
