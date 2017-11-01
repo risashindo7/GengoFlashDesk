@@ -98,20 +98,28 @@ class CardWindow:
         self.questionText = Tkinter.Text(self.frame, width = 15, height = 3)
         self.questionText.grid(column = 0, row = 0)
         self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
+        self.questionText.config(state= Tkinter.DISABLED)
         
         self.answerText = Tkinter.Text(self.frame, width = 15, height = 3)
         self.answerText.grid(column = 2, row = 0)
+        self.answerText.config(state= Tkinter.DISABLED)
 
 
     def show_answer(self):
+        self.answerText.config(state= Tkinter.NORMAL)
         self.answerText.insert(Tkinter.INSERT, '\n' + self.currentCard[1])
+        self.answerText.config(state= Tkinter.DISABLED)
     
     
     def next_card(self):
+        self.questionText.config(state= Tkinter.NORMAL)
         self.questionText.delete(1.0 , Tkinter.END)
+        self.answerText.config(state= Tkinter.NORMAL)
         self.answerText.delete(1.0 , Tkinter.END)
+        self.answerText.config(state= Tkinter.DISABLED)
         self.currentCard = next(self.cardSet)
         self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
+        self.questionText.config(state= Tkinter.DISABLED)
     
 
 if __name__ == "__main__":
