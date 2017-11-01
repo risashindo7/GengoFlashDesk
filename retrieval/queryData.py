@@ -10,8 +10,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run DeepFM.")
-    parser.add_argument('--docs', nargs='?', default='retrieval/data/SETTITLES.ALL',
-                        help='Path of the document file.')
+    parser.add_argument('--titles', nargs='?', default='retrieval/data/SETTITLES.ALL',
+                        help='Path of the document file with titiles.')
+    parser.add_argument('--wholesets', nargs='?', default='retrieval/data/WHOLESETS.ALL',
+                        help='Path of the document file with set content.')
 
     return parser.parse_args()
 
@@ -50,6 +52,24 @@ def load_docs(file):
     return docs
 
 
+def load_cardset(file, index):
+    docs = []
+    with open(file, 'r') as f:
+        doc_split = f.read().replace('\n', ' ').replace('\r', ' ').split('.I')
+    for l in doc_split[1:]:
+        docs.append((''.join(re.sub(' +', ' ', l).split('.W')[1:])))
+    return docs[index]
+
+
+def load_cardset_titles(file, indices):
+    docs = []
+    with open(file, 'r') as f:
+        doc_split = f.read().replace('\n', ' ').replace('\r', ' ').split('.I')
+    for l in doc_split[1:]:
+        docs.append((''.join(re.sub(' +', ' ', l).split('.W')[1:])))
+    return [ docs[i] for i in indices]
+
+
 def load_data(docs_path):
     original_docs = load_docs(docs_path)
     return original_docs
@@ -85,12 +105,21 @@ def tf_idf(docs, queries, tokenizer):
 
 def performQuery(queries):
     args = parse_args()
-    docs = load_data(args.docs)
-    vec_docs, vec_queries = tf_idf(docs, queries, tokenize_text)
+    titles = load_data(args.titles)
+    vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text)
 
-    sim_matrix = cosine_similarity(vec_docs, vec_queries)
+    sim_matrix = cosine_similarity(vec_titles, vec_queries)
     
     ranked_documents = np.argsort(-sim_matrix[:, 0])
     return (ranked_documents[:10] + 1)
 
 
+def retrieveCards(index):
+    args = parse_args()
+    cardSet = load_cardset(args.wholesets, index)
+    return cardSet
+
+def retrieveSetNames(indices):
+    args = parse_args()
+    setTitles = load_cardset_titles(args.titles, indices)
+    return setTitles

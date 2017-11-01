@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import tkinter as Tkinter
-from retrieval.queryData import performQuery
+from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
 
 class gengoFlashApp_tk(Tkinter.Tk):
     def __init__(self, parent):
@@ -11,6 +11,9 @@ class gengoFlashApp_tk(Tkinter.Tk):
         
     def initialize(self):
         self.grid()
+        
+        #radio selection variable
+        self.radioVariable = Tkinter.IntVar()
         
         self.entryVariable = Tkinter.StringVar()
         self.entry = Tkinter.Entry(
@@ -49,17 +52,23 @@ class gengoFlashApp_tk(Tkinter.Tk):
         self.entry.selection_range(0, Tkinter.END)
         
     def createRadioButtons(self, listForRadio):
+        setTitles = retrieveSetNames(listForRadio - 1)
         for x in range(0, len(listForRadio)):
-            Tkinter.Radiobutton(self, indicatoron = 0,
-            text= listForRadio[x],
+            Tkinter.Radiobutton(self, indicatoron = 0, command = self.OnRadioClick,
+            text= setTitles[x],
             padx = 80,
-            value=x).grid(column = 0, row = (1 + x),  columnspan = 2, sticky = 'EW')
+            value= listForRadio[x],
+            variable = self.radioVariable).grid(column = 0, row = (1 + x),  columnspan = 2, sticky = 'EW')
 
     def searchForKeywords(self):
         query = self.entryVariable.get()
-        listOfResults = performQuery([query])
-        self.createRadioButtons(listOfResults)
-
+        listOfResultIndices = performQuery([query])
+        self.createRadioButtons(listOfResultIndices)     
+        
+        
+    def OnRadioClick(self):
+        indexOfSet = (self.radioVariable.get() - 1)
+        print (retrieveCards(indexOfSet))
 
 
 if __name__ == "__main__":
