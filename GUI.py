@@ -32,6 +32,22 @@ class gengoFlashApp_tk:
                                 command = self.add_set, width = 10)
         buttonAdd.grid(column = 1, row = 1)
         
+        #===========Edited by Risa, please clean up cod eif necessary!!
+        OPTIONS = [
+                   "French",
+                   "Spanish"
+                   ] #etc.
+        self.language = Tkinter.StringVar()
+        self.language.set(OPTIONS[0]) #default lanaguage
+        w = Tkinter.OptionMenu(self.frame, self.language, *OPTIONS)
+        w.grid()
+        buttonLangSelect = Tkinter.Button(self.frame, text = u"Select Language",
+                                command = self.languageSelect, width = 20)
+        #buttonLangSelect.grid(column = 1, row = 2)
+        buttonLangSelect.grid()
+        
+        #===========Edited by Risa, END
+        
         self.labelVariable = Tkinter.StringVar()
         label = Tkinter.Label(self.frame, textvariable = self.labelVariable,
                               anchor = "w", fg = "white", bg = "blue")
@@ -81,6 +97,13 @@ class gengoFlashApp_tk:
     def new_card_window(self, cardSet, indexOfSet):
         self.newWindow = Tkinter.Toplevel(self.master)
         self.app = CardWindow(self.newWindow, cardSet, indexOfSet)
+        
+    def languageSelect(self):
+        print("language is: "+ self.language.get())
+        
+    #def change_directory(self):
+        
+        
         
 
 class CardWindow:
