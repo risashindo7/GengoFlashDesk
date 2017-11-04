@@ -1,0 +1,372 @@
+.I 1
+.W
+ears - las orejas;
+head - la cabeza;
+eyes - los ojos;
+legs - las piernas;
+arm - el brazo;
+hand - la mano;
+foot - el pie;
+head - la cabeza;
+ear - la oreja;
+mouth - la boca;
+nose - la nariz;
+eye - el ojo;
+arm - el brazo
+.I 2
+.W
+soccer - fútbol;
+football - fútbol americano;
+tennis - tenis;
+baseball - béisbol;
+basketball (ends with bol) - básquetbol;
+volleyball - voleibol;
+to ski - esquí;
+to mountain climb - escalar montañas;
+hiking - excursionismo;
+to practice sports - practicar deportes;
+skating - patinaje;
+to scuba dive - buceo;
+track and field - pista y campo / atletismo;
+golf - golf;
+boxing - boxeo;
+gymnastics - gimnasia;
+hockey - hockey;
+cycling - ciclismo;
+swimming - natación;
+bodybuilding - culturismo                                    
+.I 3
+.W
+Monday - Lunes;
+Tuesday - Martes;
+Wednesday - Miercoles;
+Thursday - Jueves;
+Friday - Viernes;
+Saturday - Sabado;
+Sunday - Domingo
+.I 4
+.W
+rugby - rugby;
+golf - golf;
+cycling - ciclismo;
+swimming - natacíon;
+football - fútbol;
+cricket - criquet
+.I 5
+.W
+flute - la flauta;
+guitar - la guitarra;
+piano - el piano;
+saxophone - el saxofón;
+tamborine / drum - el tambor / la batería;
+trumpet - la trompeta;
+violin - el violín
+.I 6
+.W
+accounting - la contabilidad;
+algebra - el álgebra;
+architecture - la arquitectura;
+art - el arte;
+astronomy - la astronomía;
+biology - la biología;
+botany - la botánica;
+business - el comercio;
+chemistry - la química;
+computing (IT) - la informática;
+drawing - el dibujo;
+earth science - la ciencia terrestre;
+economics - la económia;
+engineering - la ingeniería
+.I 7
+.W
+judge - el juez;
+lawyer - el abogado;
+librarian - el bibliotecario;
+mason - el albañil;
+mechanic - el mecánico;
+model - el modelo;
+musician - el músico;
+nurse - el enfermero;
+civil servant - el funcionario;
+optician - el óptico;
+painter - el pintor;
+chemist - el químico;
+pharmacist - el farmacéutico;
+photographer - el fotógrafo;
+pilot - el piloto;
+plumber - el fontanero;
+publisher - el editor;
+salesman - el vendedor;
+scientist - el científico;
+secretary - la secretaria;
+servant - el criado
+.I 8
+.W
+It's cold. - Hace frío.;
+It's hot. - Hace calor.;
+It's sunny. - Hace sol.;
+It's windy. - Hace viento.;
+It's chilly. - Hace fresco.;
+It's cloudy. - Está nublado.;
+It's foggy. - Hay niebla.;
+It's misty. - Hay neblina.;
+It's humid. - Hay humedad.;
+It's hailing. - Hay granizo.;
+It's raining. - Llueve.;
+It's snowing. - Nieva.;
+It's thundering. - Truena.;
+It's sprinkling. - Llovizna.
+.I 9
+.W
+What time is it? - ¿Qué hora es?;
+It's one. - Es la una.;
+It's noon. - Es mediodía.;
+It's midnight. - Es medianoche.;
+in the morning (AM) - de la mañana;
+in the afternoon (PM) - de la tarde;
+in the evening (PM) - de la noche;
+exactly (sharp) - en punto;
+At what time? - ¿A qué hora?
+.I 10
+.W
+circle - el círculo;
+square - el cuadrado;
+rectangle - el rectángulo;
+triangle - el triángulo;
+oval - el óvalo;
+cube - el cubo;
+sphere - la esfera;
+cylinder - el cilindro;
+cone - el cono;
+octagon - el octágono;
+box - la caja;
+pyramid - la pirámide
+.I 11
+.W
+red - rojo;
+pink - rosado;
+orange - anaranjado;
+yellow - amarillo;
+green - verde;
+blue - azul;
+light blue - celeste;
+purple - morado;
+violet - violeta;
+brown - marrón;
+black - negro;
+gray - gris;
+white - blanco;
+golden - dorado;
+silver - plateado;
+dark - oscuro;
+light - claro
+.I 12
+.W
+spring - la primavera;
+summer - el verano;
+winter - el invierno;
+autumn - el otoño;
+in spring - en primavera;
+in summer - en verano;
+in winter - en invierno;
+in autumn - en otoño
+.I 13
+.W
+January - enero;
+February - febrero;
+March - marzo;
+April - abril;
+May - mayo;
+June - junio;
+July - julio;
+August - agosto;
+September - septiembre;
+October - octubre;
+November - noviembre;
+December - diciembre
+.I 14
+.W
+happy - alegre;
+tired - cansado;
+content, happy, pleased - contento;
+depressed - deprimido;
+excited - emocionado;
+sick - enfermo;
+angry - enojado;
+nervous - nervioso;
+busy - ocupado;
+worried - preocupado
+.I 15
+.W
+On top of - Encima de;
+In front of - Delante de;
+Under - Debajo de;
+Far from - Lejos de;
+Here - Aquí;
+There - Allí;
+Near - Cerca de;
+There is, there are - Hay;
+In - En;
+Next to - Al lado de;
+Of, from - De;
+Behind - Detrás de
+.I 16
+.W
+Water - El agua;
+Milk - Le leche;
+Soda - El refresco;
+Tea - El té;
+Coffee - El café;
+Juice - El jugo;
+Breakfast - El desayuno;
+Cereal - Los cereales;
+Eggs - Los huevos;
+Bacon - El tocino;
+Toast - El pan tostado;
+Pancakes - Los panqueques;
+Banana - El plátano;
+Lunch - El almuerzo;
+Dinner - Le cena;
+Steak - El bistec;
+Hamburger - La hamburguesa;
+Sandwich - El sándwich
+.I 17
+.W
+to speak - hablar;
+to help - ayudar;
+to dance - bailar;
+to look for - buscar;
+to walk - caminar;
+to buy - comprar;
+to converse - conversar;
+listen - escuchar;
+to love - adorer;
+to eat - comer;
+to learn - aprender;
+to drink - beber;
+to understand - comprender;
+to know - conocer;
+to run - correr;
+to believe - creer;
+to open - abrir;
+to write - escribir;
+to discuss - discutir;
+to recieve - recibir
+.I 18
+.W
+sink - el fregadero;
+dishwasher - el lavaplatos;
+stove - la estufa;
+oven - el horno;
+refrigerator - el refrigerador;
+cabinet - el gabinete;
+drawer - el cajón;
+faucet - el grifo;
+can opener - el abrelatas;
+toaster - el tostador;
+plug - el enchufe;
+light bulb - la bombilla;
+electric mixer - la batidor eléctica;
+blender - la licuadora;
+microwave oven - el horno de microondas
+.I 19
+.W
+Eraser - El borrador;
+Calculator - La calculadora;
+Notebook - El cuaderno;
+Desk - El eschitorio;
+Map - El map;
+Backpack - El mochila;
+Paper - El papel;
+Board, chalkboard - El pizarron;
+Pen - La pluma;
+Door - La puerta;
+Clock , watch - El reloj;
+Chair - La silla;
+Chalk - La tiza;
+Window - La ventana
+.I 20
+.W
+Hello - Hola;
+Good Morning - Buenós Días;
+Good Afternoon - Buenas Tardes;
+Good Night - Buenas Noches;
+What do you call yourself? - ¿Cómo te llama?;
+I call my self - Me llama;
+my name is - Mi nombre es;
+I am (I'm) - Soy;
+And You? - ¿Y Usted? (Formal)
+¿Y Tú? (Informal);
+Pleased to meet you - Mucho gusto;
+Delighted to meet you - Enacanto;
+Same to you - Ingualmente;
+Pleasure to meet you - Esun Placer
+.I 21
+.W
+one - Uno;
+two - dos;
+three - Tress;
+four - quarto;
+five - Cinco;
+six - sais;
+seven - siete;
+eight - Ocho;
+nine - Nuevé;
+ten - dies;
+eleven - once;
+twelve - doce;
+thirteen - trece
+.I 22
+.W
+orange - La naranja;
+grapefruit - La toronja;
+pineapple - La pine;
+watermelon - La sandia;
+papaya - La papaya;
+melon - El melon;
+strawberry - Las fresas;
+banana - El platano;
+limon - El limon
+.I 23
+.W
+giraffe - jifara;
+elephant - elefante;
+snake - serpiente;
+crocodile - cocodrilo;
+dolphin - delfin;
+tortoise - tortuga;
+hamburger - hamburguesa;
+chocolate - chocolate;
+tart - tarta;
+potatoes - patatas;
+caramel - caramelos;
+spaghetti - espaguetis;
+tea - té;
+coffee - café;
+lemonade - limonada;
+water - agua
+.I 24
+.W
+blouse - la blusa;
+socks - Los calcetines;
+shirt - la camisa;
+t-shirt - la camiseta;
+jacket - la chaqueta;
+ugly - fea;
+winter hat - el gorro;
+jeans - los jeans;
+to wear - llevar;
+new - nueva;
+pants - los pantalones;
+shorts - los pantalones cortos;
+clothing - la ropa
+.I 25
+.W
+Who - Quien;
+What - Que;
+when - Cuando;
+why - pór que;
+where - dondé;
+how - comó;
+How many - Cuántos;
+Which - Cuál

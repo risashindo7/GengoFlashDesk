@@ -14,6 +14,14 @@ def parse_args():
                         help='Path of the document file with titiles.')
     parser.add_argument('--wholesets', nargs='?', default='retrieval/data/WHOLESETS.ALL',
                         help='Path of the document file with set content.')
+    parser.add_argument('--spanish_titles', nargs='?', default='retrieval/data/data_spanish/SETTITLES.ALL',
+                        help='Path of the document file with titiles for spanish.')
+    parser.add_argument('--spanish_wholesets', nargs='?', default='retrieval/data/data_spanish/WHOLESETS.ALL',
+                        help='Path of the document file with set content for spanish.')
+    parser.add_argument('--french_titles', nargs='?', default='retrieval/data/data_french/SETTITLES.ALL',
+                        help='Path of the document file with titiles for french.')
+    parser.add_argument('--french_wholesets', nargs='?', default='retrieval/data/data_french/WHOLESETS.ALL',
+                        help='Path of the document file with set content for french.')
 
     return parser.parse_args()
 
@@ -108,9 +116,8 @@ def tf_idf(docs, queries, tokenizer):
     return tfs, tfs_query
 
 
-def performQuery(queries):
-    args = parse_args()
-    titles = load_data(args.titles)
+def performQuery(queries, language):
+    titles = load_data(chooseLanguage(0, language))
     vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text)
 
     sim_matrix = cosine_similarity(vec_titles, vec_queries)
@@ -119,12 +126,23 @@ def performQuery(queries):
     return (ranked_documents[:10] + 1)
 
 
-def retrieveCards(index):
-    args = parse_args()
-    cardSet = load_cardset(args.wholesets, index)
+def retrieveCards(index, language):
+    cardSet = load_cardset(chooseLanguage(1, language), index)
     return cardSet
 
-def retrieveSetNames(indices):
-    args = parse_args()
-    setTitles = load_cardset_titles(args.titles, indices)
+def retrieveSetNames(indices, language):
+    setTitles = load_cardset_titles(chooseLanguage(0, language), indices)
     return setTitles
+    
+def chooseLanguage(setsOrTitles, language): #titles = 0, sets = 1
+    args =  parse_args()
+    if (setsOrTitles == 0): #meaning titles
+        if  (language == "Spanish"):
+            return args.spanish_titles
+        if (language == "French"):
+            return args.french_titles
+    elif (setsOrTitles == 1): #meaning sets
+        if (language == "Spanish"):
+            return args.spanish_wholesets
+        if (language == "French"):
+            return args.french_wholesets

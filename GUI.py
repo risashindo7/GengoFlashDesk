@@ -40,11 +40,11 @@ class gengoFlashApp_tk:
         self.language = Tkinter.StringVar()
         self.language.set(OPTIONS[0]) #default lanaguage
         w = Tkinter.OptionMenu(self.frame, self.language, *OPTIONS)
-        w.grid()
+        w.grid(column = 1, row = 2)
         buttonLangSelect = Tkinter.Button(self.frame, text = u"Select Language",
                                 command = self.languageSelect, width = 20)
         #buttonLangSelect.grid(column = 1, row = 2)
-        buttonLangSelect.grid()
+        buttonLangSelect.grid(column = 1, row = 3)
         
         #===========Edited by Risa, END
         
@@ -74,23 +74,23 @@ class gengoFlashApp_tk:
         self.entry.selection_range(0, Tkinter.END)
         
     def createRadioButtons(self, listForRadio):
-        self.setTitles = retrieveSetNames(listForRadio - 1)
+        self.setTitles = retrieveSetNames(listForRadio - 1, self.language.get())
         for x in range(0, len(listForRadio)):
             Tkinter.Radiobutton(self.frame, indicatoron = 0, command = self.OnRadioClick,
             text= self.setTitles[x],
             padx = 80,
             value= listForRadio[x],
-            variable = self.radioVariable).grid(column = 0, row = (2 + x),  columnspan = 2, sticky = 'EW')
+            variable = self.radioVariable).grid(column = 0, row = (4 + x),  columnspan = 2, sticky = 'EW')
 
     def searchForKeywords(self):
         query = self.entryVariable.get()
-        listOfResultIndices = performQuery([query])
+        listOfResultIndices = performQuery([query], self.language.get())
         self.createRadioButtons(listOfResultIndices)     
         
         
     def OnRadioClick(self):
         indexOfSet = (self.radioVariable.get() - 1)
-        cardSet = retrieveCards(indexOfSet)
+        cardSet = retrieveCards(indexOfSet, self.language.get())
         self.new_card_window(cardSet, indexOfSet)
 
 
@@ -121,13 +121,13 @@ class CardWindow:
         self.currentCard = self.cardSet[self.currentIndex]
         
         self.showAnswerButton = Tkinter.Button(self.frame, text = 'Show answer', command = self.show_answer)
-        self.showAnswerButton.grid(column = 1, row = 2)
+        self.showAnswerButton.grid(column = 1, row = 4)
         
         self.nextButton = Tkinter.Button(self.frame, text = 'Next', width = 8, command = self.next_card)
-        self.nextButton.grid(column = 2, row = 2)
+        self.nextButton.grid(column = 2, row = 4)
         
         self.prevButton = Tkinter.Button(self.frame, text = 'Previous', width = 8, command = self.previous_card)
-        self.prevButton.grid(column = 0, row = 2)
+        self.prevButton.grid(column = 0, row = 4)
         
         self.questionText = Tkinter.Text(self.frame, width = 15, height = 3)
         self.questionText.grid(column = 0, row = 0)
@@ -142,16 +142,16 @@ class CardWindow:
         self.frame.grid_rowconfigure(3, minsize=20)
         
         self.addButton = Tkinter.Button(self.frame, text = 'Add', width = 8, command = self.add_card)
-        self.addButton.grid(column = 0, row = 4)
+        self.addButton.grid(column = 0, row = 6)
         
         self.deleteButton = Tkinter.Button(self.frame, text = 'Delete', width = 8, command = self.delete_card)
-        self.deleteButton.grid(column = 3, row = 4)
+        self.deleteButton.grid(column = 3, row = 6)
         
         self.editButton = Tkinter.Button(self.frame, text = 'Edit', width = 8, command = self.edit_card)
-        self.editButton.grid(column = 1, row = 4)
+        self.editButton.grid(column = 1, row = 6)
         
         self.confirmEditButton = Tkinter.Button(self.frame, text = 'Save', width = 8, command = self.confirm_edit_card)
-        self.confirmEditButton.grid(column = 2, row = 4)
+        self.confirmEditButton.grid(column = 2, row = 6)
 
 
     def delete_card(self):
