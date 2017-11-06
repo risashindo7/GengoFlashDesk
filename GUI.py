@@ -9,6 +9,7 @@ class gengoFlashApp_tk:
     def __init__(self, master):
         self.master = master
         self.frame = Tkinter.Frame(self.master)
+        self.numberOfRadioButtons = 0
         self.initialize(master)
         
     def initialize(self, master):
@@ -85,7 +86,15 @@ class gengoFlashApp_tk:
         
     def createRadioButtons(self, listForRadio):
         self.setTitles = retrieveSetNames(listForRadio - 1, self.language.get())
+        
+        #clean first
+        for label in self.frame.grid_slaves():
+            if (int(label.grid_info()["row"]) >= 4) and (int(label.grid_info()["row"]) != 12):
+                label.grid_forget()               
+            
+            
         for x in range(0, len(listForRadio)):
+            self.numberOfRadioButtons = len(listForRadio)
             Tkinter.Radiobutton(self.frame, indicatoron = 0, command = self.OnRadioClick,
             text= self.setTitles[x],
             padx = 80,
@@ -95,7 +104,6 @@ class gengoFlashApp_tk:
     def searchForKeywords(self):
         query = self.entryVariable.get()
         listOfResultIndices = performQuery([query], self.language.get())
-        print(listOfResultIndices)
         self.createRadioButtons(listOfResultIndices)     
         
         
