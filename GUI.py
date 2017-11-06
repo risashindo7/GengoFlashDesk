@@ -63,12 +63,9 @@ class gengoFlashApp_tk:
                    ] #etc.
         self.language = Tkinter.StringVar()
         self.language.set(OPTIONS[0]) #default lanaguage
-        w = Tkinter.OptionMenu(self.frame, self.language, *OPTIONS)
+        w = Tkinter.OptionMenu(self.frame, self.language, *OPTIONS, command = self.languageSelect)
         w.grid(column = 1, row = 2)
-        buttonLangSelect = Tkinter.Button(self.frame, text = u"Select Language",
-                                command = self.languageSelect, width = 20)
-        #buttonLangSelect.grid(column = 1, row = 2)
-        buttonLangSelect.grid(column = 1, row = 3)
+        
         
         #===========Edited by Risa, END
         
@@ -100,7 +97,7 @@ class gengoFlashApp_tk:
         
         #clean first
         for label in self.frame.grid_slaves():
-            if (int(label.grid_info()["row"]) >= 4) and (int(label.grid_info()["row"]) != 12):
+            if (int(label.grid_info()["row"]) >= 3) and (int(label.grid_info()["row"]) != 12):
                 label.grid_forget()               
             
             
@@ -110,7 +107,7 @@ class gengoFlashApp_tk:
             text= self.setTitles[x],
             padx = 80,
             value= listForRadio[x],
-            variable = self.radioVariable).grid(column = 0, row = (4 + x),  columnspan = 2, sticky = 'EW')
+            variable = self.radioVariable).grid(column = 0, row = (3 + x),  columnspan = 2, sticky = 'EW')
 
     def searchForKeywords(self):
         query = self.entryVariable.get()
@@ -135,8 +132,8 @@ class gengoFlashApp_tk:
         self.newWindow = Tkinter.Toplevel(self.master)
         self.app = CardWindow(self.newWindow, cardSet, indexOfSet, language)
         
-    def languageSelect(self):
-        print("language is: "+ self.language.get())
+    def languageSelect(self, value):
+        print("language is: "+ value)
         
 
 
@@ -170,13 +167,13 @@ class CardWindow:
         self.currentCard = self.cardSet[self.currentIndex]
         
         self.showAnswerButton = Tkinter.Button(self.frame, text = 'Show answer', command = self.show_answer)
-        self.showAnswerButton.grid(column = 1, row = 4)
+        self.showAnswerButton.grid(column = 1, row = 3)
         
         self.nextButton = Tkinter.Button(self.frame, text = 'Next', width = 8, command = self.next_card)
-        self.nextButton.grid(column = 2, row = 4)
+        self.nextButton.grid(column = 2, row = 3)
         
         self.prevButton = Tkinter.Button(self.frame, text = 'Previous', width = 8, command = self.previous_card)
-        self.prevButton.grid(column = 0, row = 4)
+        self.prevButton.grid(column = 0, row = 3)
         
         self.questionText = Tkinter.Text(self.frame, width = 25, height = 3)
         self.questionText.grid(column = 0, row = 0)
