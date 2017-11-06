@@ -6,6 +6,8 @@ import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.stem.porter import PorterStemmer
 from sklearn.metrics.pairwise import cosine_similarity
+from PyDictionary import PyDictionary
+from nltk.corpus import wordnet
 
 
 def parse_args():
@@ -118,12 +120,28 @@ def tf_idf(docs, queries, tokenizer):
 
 def performQuery(queries, language):
     titles = load_data(chooseLanguage(0, language))
-    vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text)
+    
+    #support synonyms
+    def get_synonyms(word):
+        synonyms = []
+        for syn in wordnet.synsets(word.strip()):
+            for l in syn.lemmas():
+                synonyms.append(l.name())
+        return (synonyms)
+    
+    titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 15)) , titles)
+    
+    vec_titles, vec_queries = tf_idf(titles_with_synonyms, queries, tokenize_text)
 
     sim_matrix = cosine_similarity(vec_titles, vec_queries)
     
     ranked_documents = np.argsort(-sim_matrix[:, 0])
-    return (ranked_documents[:10] + 1)
+    listed = [sim_matrix[i] for i in ranked_documents[:10]]
+    
+    flat_list = [item for sublist in listed for item in sublist]
+    non_zero_vals = len(list(filter(lambda x: x > 0, flat_list)))
+    
+    return (ranked_documents[:non_zero_vals] + 1)
 
 
 def retrieveCards(index, language):

@@ -3,15 +3,26 @@
 import tkinter as Tkinter
 from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
 from retrieval.storage import changeCardInDatabase, addCardToDatabase, removeCardFromDatabase, addSetToDatabase
+from googletrans import Translator
 
 class gengoFlashApp_tk:
     def __init__(self, master):
         self.master = master
         self.frame = Tkinter.Frame(self.master)
+        self.numberOfRadioButtons = 0
         self.initialize(master)
         
     def initialize(self, master):
         self.frame.grid()
+        
+        #menu
+        # create a toplevel menu
+        menubar = Tkinter.Menu(master)
+        menubar.add_command(label="Add set", command = self.add_set)
+
+        # display the menu
+        master.config(menu=menubar)
+        #menu end
         
         #radio selection variable
         self.radioVariable = Tkinter.IntVar()
@@ -75,7 +86,15 @@ class gengoFlashApp_tk:
         
     def createRadioButtons(self, listForRadio):
         self.setTitles = retrieveSetNames(listForRadio - 1, self.language.get())
+        
+        #clean first
+        for label in self.frame.grid_slaves():
+            if (int(label.grid_info()["row"]) >= 4) and (int(label.grid_info()["row"]) != 12):
+                label.grid_forget()               
+            
+            
         for x in range(0, len(listForRadio)):
+            self.numberOfRadioButtons = len(listForRadio)
             Tkinter.Radiobutton(self.frame, indicatoron = 0, command = self.OnRadioClick,
             text= self.setTitles[x],
             padx = 80,
@@ -91,32 +110,44 @@ class gengoFlashApp_tk:
     def OnRadioClick(self):
         indexOfSet = (self.radioVariable.get() - 1)
         cardSet = retrieveCards(indexOfSet, self.language.get())
-        self.new_card_window(cardSet, indexOfSet)
+        self.new_card_window(cardSet, indexOfSet, self.language.get())
 
 
-    def new_card_window(self, cardSet, indexOfSet):
+    def new_card_window(self, cardSet, indexOfSet, language):
         self.newWindow = Tkinter.Toplevel(self.master)
-        self.app = CardWindow(self.newWindow, cardSet, indexOfSet)
+        self.app = CardWindow(self.newWindow, cardSet, indexOfSet, language)
         
     def languageSelect(self):
         print("language is: "+ self.language.get())
         
-    #def change_directory(self):
-        
-        
-        
+
+
 
 class CardWindow:
-    def __init__(self, master, cardSet, indexOfSet):
+    def __init__(self, master, cardSet, indexOfSet, language):
         self.master = master
         self.cardSet = cardSet
         self.indexInDatabase =indexOfSet
         self.currentIndex = 0
+        self.language = language
         self.frame = Tkinter.Frame(self.master)
         self.initialize(master)
         
     def initialize(self, master):
         self.frame.grid()
+        
+        #menu
+        # create a toplevel menu
+        menubar = Tkinter.Menu(master)
+        menubar.add_command(label="Add new", command = self.add_card)
+        menubar.add_command(label="Delete current", command = self.delete_card)
+        menubar.add_command(label="Edit", command = self.edit_card)
+        menubar.add_command(label="Translate", command = self.propose_translation)
+        menubar.add_command(label="Save edit", command = self.confirm_edit_card)
+
+        # display the menu
+        master.config(menu=menubar)
+        #menu end
         
         self.currentCard = self.cardSet[self.currentIndex]
         
@@ -129,38 +160,34 @@ class CardWindow:
         self.prevButton = Tkinter.Button(self.frame, text = 'Previous', width = 8, command = self.previous_card)
         self.prevButton.grid(column = 0, row = 4)
         
-        self.questionText = Tkinter.Text(self.frame, width = 15, height = 3)
+        self.questionText = Tkinter.Text(self.frame, width = 25, height = 3)
         self.questionText.grid(column = 0, row = 0)
         self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
         self.questionText.config(state= Tkinter.DISABLED)
         
-        self.answerText = Tkinter.Text(self.frame, width = 15, height = 3)
+        self.answerText = Tkinter.Text(self.frame, width = 25, height = 3)
         self.answerText.grid(column = 2, row = 0)
         self.answerText.config(state= Tkinter.DISABLED)
         
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
-        
-        self.addButton = Tkinter.Button(self.frame, text = 'Add', width = 8, command = self.add_card)
-        self.addButton.grid(column = 0, row = 6)
-        
-        self.deleteButton = Tkinter.Button(self.frame, text = 'Delete', width = 8, command = self.delete_card)
-        self.deleteButton.grid(column = 3, row = 6)
-        
-        self.editButton = Tkinter.Button(self.frame, text = 'Edit', width = 8, command = self.edit_card)
-        self.editButton.grid(column = 1, row = 6)
-        
-        self.confirmEditButton = Tkinter.Button(self.frame, text = 'Save', width = 8, command = self.confirm_edit_card)
-        self.confirmEditButton.grid(column = 2, row = 6)
 
+
+    def propose_translation(self):
+        if (self.answerText['state'] == 'normal'):
+            textToTranslate = self.questionText.get(1.0 ,Tkinter.END)
+            translator = Translator()
+            result = translator.translate(textToTranslate, src = 'English', dest = self.language).text
+            self.answerText.delete(1.0 , Tkinter.END)
+            self.answerText.insert(Tkinter.INSERT, '\n' + result)
 
     def delete_card(self):
         removeCardFromDatabase(self.currentCard)
         self.cardSet.remove(self.currentCard)
         if (len(self.cardSet) == 0):
-            self.add_card
+            self.add_card()
         else: 
-            self.next_card
+            self.next_card()
 
 
     def add_card(self):
