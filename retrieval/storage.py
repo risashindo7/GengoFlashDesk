@@ -1,48 +1,90 @@
 
 import re
-def addSetToDatabase(setName):
+def addSetToDatabase(setName, language):
     lastIndex = 0
-    with open("retrieval/data/SETTITLES.ALL") as f:
-        for line in f:
-            if ".I" in line:
-                lastIndex = int(re.search(r'\d+', line).group())
-    with open("retrieval/data/SETTITLES.ALL", "a") as myfile:
-        myfile.write(".I " + str(lastIndex + 1) + '\n')
-        myfile.write(".W\n")
-        myfile.write(setName + '\n')           
+    if (language == "Spanish"):
+        with open('retrieval/data/data_spanish/SETTITLES.ALL') as f:
+            for line in f:
+                if ".I" in line:
+                    lastIndex = int(re.search(r'\d+', line).group())
+        with open('retrieval/data/data_spanish/SETTITLES.ALL', "a") as myfile:
+            myfile.write(".I " + str(lastIndex + 1) + '\n')
+            myfile.write(".W\n")
+            myfile.write(setName + '\n')           
+                    
+        with open('retrieval/data/data_spanish/WHOLESETS.ALL', "a") as myfile:
+            myfile.write(".I " + str(lastIndex + 1) + '\n')
+            myfile.write(".W\n")
+            myfile.write('Question - Answer' + '\n')   
+    elif (language == "French"):
+        with open('retrieval/data/data_french/SETTITLES.ALL') as f:
+            for line in f:
+                if ".I" in line:
+                    lastIndex = int(re.search(r'\d+', line).group())
+        with open('retrieval/data/data_french/SETTITLES.ALL', "a") as myfile:
+            myfile.write(".I " + str(lastIndex + 1) + '\n')
+            myfile.write(".W\n")
+            myfile.write(setName + '\n')           
+                    
+        with open('retrieval/data/data_french/WHOLESETS.ALL', "a") as myfile:
+            myfile.write(".I " + str(lastIndex + 1) + '\n')
+            myfile.write(".W\n")
+            myfile.write('Question - Answer' + '\n') 
                 
-    with open("retrieval/data/WHOLESETS.ALL", "a") as myfile:
-        myfile.write(".I " + str(lastIndex + 1) + '\n')
-        myfile.write(".W\n")
-        myfile.write('Question - Answer' + '\n')   
-                
-def removeCardFromDatabase(currentCard):
+def removeCardFromDatabase(currentCard, language):
     # Read in the file
-    with open('retrieval/data/WHOLESETS.ALL', 'r') as file :
-        filedata = file.read()
-
-    # Replace the target string
-    filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1] + ';', '')
-    filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1], '')
-
-    # Write the file out again
-    with open('retrieval/data/WHOLESETS.ALL', 'w') as file:
-        file.write(filedata)
+    if (language == "Spanish"):
+        with open('retrieval/data/data_spanish/WHOLESETS.ALL', 'r') as file :
+            filedata = file.read()
     
+        # Replace the target string
+        filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1] + ';', '')
+        filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1], '')
     
-def changeCardInDatabase(indexInDatabase, currentCard, changedQuestion, changedAnswer):
-    # Read in the file
-    with open('retrieval/data/WHOLESETS.ALL', 'r') as file :
-        filedata = file.read()
-
-    # Replace the target string
-    filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1], changedQuestion + ' - ' + changedAnswer)
-
-    # Write the file out again
-    with open('retrieval/data/WHOLESETS.ALL', 'w') as file:
-        file.write(filedata)
-def addCardToDatabase(indexInDatabase, Question, Answer):
-    f = open("retrieval/data/WHOLESETS.ALL", "r")
+        # Write the file out again
+        with open('retrieval/data/data_spanish/WHOLESETS.ALL', 'w') as file:
+            file.write(filedata)
+            
+    elif (language == "French"):
+        with open('retrieval/data/data_french/WHOLESETS.ALL', 'r') as file :
+            filedata = file.read()
+    
+        # Replace the target string
+        filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1] + ';', '')
+        filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1], '')
+    
+        # Write the file out again
+        with open('retrieval/data/data_french/WHOLESETS.ALL', 'w') as file:
+            file.write(filedata)
+    
+def changeCardInDatabase(indexInDatabase, currentCard, changedQuestion, changedAnswer, language):
+    if (language == "Spanish"):
+        # Read in the file
+        with open('retrieval/data/data_spanish/WHOLESETS.ALL', 'r') as file :
+            filedata = file.read()
+    
+        # Replace the target string
+        filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1], changedQuestion + ' - ' + changedAnswer)
+    
+        # Write the file out again
+        with open('retrieval/data/data_spanish/WHOLESETS.ALL', 'w') as file:
+            file.write(filedata)
+    elif (language == "French"):
+        with open('retrieval/data/data_french/WHOLESETS.ALL', 'r') as file :
+            filedata = file.read()
+    
+        # Replace the target string
+        filedata = filedata.replace(currentCard[0] + ' - ' + currentCard[1], changedQuestion + ' - ' + changedAnswer)
+    
+        # Write the file out again
+        with open('retrieval/data/data_french/WHOLESETS.ALL', 'w') as file:
+            file.write(filedata)
+def addCardToDatabase(indexInDatabase, Question, Answer, language):
+    if (language == "Spanish"):
+        f = open("retrieval/data/data_spanish/WHOLESETS.ALL", "r")
+    elif (language == "French"):
+        f = open("retrieval/data/data_french/WHOLESETS.ALL", "r")
+        
     contents = f.readlines()
     lookup = '.I ' + str(indexInDatabase + 1)
     f.close()
@@ -62,7 +104,11 @@ def addCardToDatabase(indexInDatabase, Question, Answer):
     value = Question + ' - ' + Answer + endOfAddedLine + '\n'
     contents.insert(index, value)
 
-    f = open("retrieval/data/WHOLESETS.ALL", "w")
+    if (language == "Spanish"):
+        f = open("retrieval/data/data_spanish/WHOLESETS.ALL", "w")
+    elif (language == "French"):
+        f = open("retrieval/data/data_french/WHOLESETS.ALL", "w")
+    
     contents = "".join(contents)
     f.write(contents)
     f.close()

@@ -79,7 +79,7 @@ class gengoFlashApp_tk:
         self.entry.selection_range(0, Tkinter.END)
     
     def add_set(self):
-        addSetToDatabase(self.entryVariable.get())
+        addSetToDatabase(self.entryVariable.get(), self.language.get())
     
     def OnButtonClick(self):
         self.setLabelToEnteredText()
@@ -197,7 +197,7 @@ class CardWindow:
             self.answerText.insert(Tkinter.INSERT, '\n' + result)
 
     def delete_card(self):
-        removeCardFromDatabase(self.currentCard)
+        removeCardFromDatabase(self.currentCard, self.language)
         self.cardSet.remove(self.currentCard)
         if (len(self.cardSet) == 0):
             self.add_card()
@@ -206,7 +206,7 @@ class CardWindow:
 
 
     def add_card(self):
-        addCardToDatabase(self.indexInDatabase, 'Question', 'Answer')
+        addCardToDatabase(self.indexInDatabase, 'Question', 'Answer', self.language)
         self.cardSet.append(['Question','Answer'])
         self.currentIndex = abs(len(self.cardSet) - 2)
         self.next_card()
@@ -215,7 +215,7 @@ class CardWindow:
     def confirm_edit_card(self):
         changedQuestion = self.questionText.get(1.0 ,Tkinter.END).strip()
         changedAnswer= self.answerText.get(1.0 , Tkinter.END).strip()
-        changeCardInDatabase(self.indexInDatabase, self.currentCard, changedQuestion, changedAnswer)
+        changeCardInDatabase(self.indexInDatabase, self.currentCard, changedQuestion, changedAnswer, self.language)
         self.currentCard[0] = changedQuestion
         self.currentCard[1] = changedAnswer
         
