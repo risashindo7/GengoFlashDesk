@@ -1,3 +1,6 @@
+
+
+
 .I 1
 .W
 Dog - Chien;
@@ -18,5 +21,20 @@ Bicycle - Velo
 Play - Tocar;
 Eat - Comer;
 .I 5
+.W
+
+.I 6
+.W
+
+.I 7
+.W
+Question - Answer
+.I 8
+.W
+Question - Answer
+.I 9
+.W
+Question - Answer
+.I 10
 .W
 Question - Answer
