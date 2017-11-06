@@ -15,6 +15,9 @@ class gengoFlashApp_tk:
     def initialize(self, master):
         self.frame.grid()
         
+        self.DEFAULT_SET_TEXT = "Enter keywords related to the topic (or a name of the set to be added)"
+        self.DEFAULT_CARD_TEXT = "Enter the words that the desired set might contain"
+        
         #menu
         # create a toplevel menu
         menubar = Tkinter.Menu(master)
@@ -27,13 +30,23 @@ class gengoFlashApp_tk:
         #radio selection variable
         self.radioVariable = Tkinter.IntVar()
         
-        
+        #set entry field
         self.entryVariable = Tkinter.StringVar()
         self.entry = Tkinter.Entry(
                 self.frame, textvariable = self.entryVariable, width = 80)
         self.entry.grid(column = 0, row = 0, rowspan = 2, sticky = 'EW')
         self.entry.bind("<Return>", self.OnPressEnter)
-        self.entryVariable.set(u"Enter keywords related to the topic (or a name of the set to be added)")
+        self.entryVariable.set(self.DEFAULT_SET_TEXT)
+        
+        #card entry field
+        self.entryVariableCard = Tkinter.StringVar()
+        self.entryCard = Tkinter.Entry(
+                self.frame, textvariable = self.entryVariableCard, width = 80)
+        self.entryCard.grid(column = 0, row = 1, rowspan = 2, sticky = 'EW')
+        self.entryVariableCard.set(self.DEFAULT_CARD_TEXT)
+        self.entryCard.bind("<Return>", self.OnPressEnter)
+
+        
         
         button = Tkinter.Button(self.frame, text = u"Search",
                                 command = self.OnButtonClick, width = 10)
@@ -81,8 +94,6 @@ class gengoFlashApp_tk:
         
     def setLabelToEnteredText(self):
         self.labelVariable.set( "Search for: " + self.entryVariable.get() )
-        self.entry.focus_set()
-        self.entry.selection_range(0, Tkinter.END)
         
     def createRadioButtons(self, listForRadio):
         self.setTitles = retrieveSetNames(listForRadio - 1, self.language.get())
@@ -103,7 +114,14 @@ class gengoFlashApp_tk:
 
     def searchForKeywords(self):
         query = self.entryVariable.get()
-        listOfResultIndices = performQuery([query], self.language.get())
+        if (query == self.DEFAULT_SET_TEXT):
+            query = ""
+            
+        queryCard = self.entryVariableCard.get()
+        if (queryCard == self.DEFAULT_CARD_TEXT):
+            queryCard = ""
+        
+        listOfResultIndices = performQuery([query], [queryCard] , self.language.get())
         self.createRadioButtons(listOfResultIndices)     
         
         
