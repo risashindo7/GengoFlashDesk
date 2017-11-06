@@ -123,7 +123,11 @@ def performQuery(queries, language):
     sim_matrix = cosine_similarity(vec_titles, vec_queries)
     
     ranked_documents = np.argsort(-sim_matrix[:, 0])
-    return (ranked_documents[:10] + 1)
+    listed = [sim_matrix[i] for i in ranked_documents[:10]]
+    flat_list = [item for sublist in listed for item in sublist]
+    non_zero_vals = len(list(filter(lambda x: x > 0, flat_list)))
+    
+    return (ranked_documents[:non_zero_vals] + 1)
 
 
 def retrieveCards(index, language):

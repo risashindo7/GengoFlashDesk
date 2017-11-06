@@ -95,6 +95,7 @@ class gengoFlashApp_tk:
     def searchForKeywords(self):
         query = self.entryVariable.get()
         listOfResultIndices = performQuery([query], self.language.get())
+        print(listOfResultIndices)
         self.createRadioButtons(listOfResultIndices)     
         
         
