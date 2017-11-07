@@ -4,6 +4,7 @@ import tkinter as Tkinter
 from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
 from retrieval.storage import changeCardInDatabase, addCardToDatabase, removeCardFromDatabase, addSetToDatabase
 from googletrans import Translator
+from PIL import ImageTk, Image
 
 class gengoFlashApp_tk:
     def __init__(self, master):
@@ -159,6 +160,7 @@ class CardWindow:
         menubar.add_command(label="Edit", command = self.edit_card)
         menubar.add_command(label="Translate", command = self.propose_translation)
         menubar.add_command(label="Save edit", command = self.confirm_edit_card)
+        menubar.add_command(label="Add Image")#, command = self.confirm_edit_card)
 
         # display the menu
         master.config(menu=menubar)
@@ -184,6 +186,21 @@ class CardWindow:
         self.answerText.grid(column = 2, row = 0)
         self.answerText.config(state= Tkinter.DISABLED)
         
+        #add space for image
+        window = master
+        window.title("Card Image")
+        window.geometry("485x300")
+        window.resizable(width = True, height = True)
+        window.configure(background='grey')
+        
+        path = "tiger.jpg"
+        
+        img = ImageTk.PhotoImage(Image.open(path))
+        self.imagePanel = Tkinter.Label(window, image = img)
+        self.imagePanel.image = img
+        self.imagePanel.grid(column = 0, row = 4)
+        #self.imagePanel.place(x = 0, y = 4)
+        #self.imagePanel.pack(side="top", fill="both", expand=True)
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
 
