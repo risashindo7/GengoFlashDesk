@@ -6,7 +6,6 @@ import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.stem.porter import PorterStemmer
 from sklearn.metrics.pairwise import cosine_similarity
-from PyDictionary import PyDictionary
 from nltk.corpus import wordnet
 
 

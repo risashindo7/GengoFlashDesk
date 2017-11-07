@@ -5,6 +5,7 @@ from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
 from retrieval.storage import changeCardInDatabase, addCardToDatabase, removeCardFromDatabase, addSetToDatabase
 from googletrans import Translator
 from PIL import ImageTk, Image
+from image_logic.image_searcher import imageQuery
 
 class gengoFlashApp_tk:
     def __init__(self, master):
@@ -160,7 +161,7 @@ class CardWindow:
         menubar.add_command(label="Edit", command = self.edit_card)
         menubar.add_command(label="Translate", command = self.propose_translation)
         menubar.add_command(label="Save edit", command = self.confirm_edit_card)
-        menubar.add_command(label="Add Image")#, command = self.confirm_edit_card)
+        menubar.add_command(label="Add Image", command = self.get_picture)
 
         # display the menu
         master.config(menu=menubar)
@@ -194,6 +195,7 @@ class CardWindow:
         window.configure(background='grey')
         
         path = "tiger.jpg"
+        self.anotherPath = "0020_2462706533.jpg"
         
         img = ImageTk.PhotoImage(Image.open(path))
         self.imagePanel = Tkinter.Label(window, image = img)
@@ -204,6 +206,15 @@ class CardWindow:
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
 
+    def get_picture(self):
+        textToQueryForImage = self.questionText.get(1.0 ,Tkinter.END)
+        paths = imageQuery([textToQueryForImage])
+        if (len(paths) > 0):
+            img = ImageTk.PhotoImage("0020_2462706533.jpg")
+            #Image.open(path.relpath(paths[0])))
+            print(textToQueryForImage)
+            print(paths[0])
+            self.imagePanel.image = img
 
     def propose_translation(self):
         if (self.answerText['state'] == 'normal'):

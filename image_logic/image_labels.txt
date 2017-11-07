@@ -1,0 +1,1049 @@
+ 	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks
+
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	bubble	bubble	bubble	bubble
+
+ 	torch	torch	torch	torch
+ 	airliner	airliner	airliner	airliner 	wing	wing	wing
+ 	fountain	fountain	fountain	fountain
+ 	palace	palace	palace	palace
+
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+ 	tub, vat	tub, vat	tub, vat	tub, vat 	bathtub, bathing tub, bath, tub	bathtub, bathing tub, bath, tub	bathtub, bathing tub, bath, tub
+ 	mosque	mosque	mosque	mosque
+ 	alp	alp	alp	alp
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+ 	cowboy hat, ten-gallon hat	cowboy hat, ten-gallon hat	cowboy hat, ten-gallon hat	cowboy hat, ten-gallon hat
+ 	window screen	window screen	window screen	window screen
+
+ 	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship 	schooner	schooner	schooner
+ 	military uniform	military uniform	military uniform	military uniform
+ 	car mirror	car mirror	car mirror	car mirror
+ 	mosquito net	mosquito net	mosquito net	mosquito net
+
+ 	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane 	wing	wing	wing
+ 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+ 	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat
+ 	tiger cat	tiger cat	tiger cat	tiger cat
+
+ 	electric locomotive	electric locomotive	electric locomotive	electric locomotive 	passenger car, coach, carriage	passenger car, coach, carriage	passenger car, coach, carriage
+ 	crutch	crutch	crutch	crutch 	broom	broom	broom
+ 	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse
+ 	Egyptian cat	Egyptian cat	Egyptian cat	Egyptian cat
+ 	castle	castle	castle	castle
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	alp	alp	alp	alp
+ 	fountain	fountain	fountain	fountain
+ 	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos 	church, church building	church, church building	church, church building
+ 	fountain	fountain	fountain	fountain
+ 	desk	desk	desk	desk 	desktop computer	desktop computer	desktop computer
+ 	cannon	cannon	cannon	cannon
+ 	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat
+ 	suspension bridge	suspension bridge	suspension bridge	suspension bridge
+ 	agama	agama	agama	agama
+ 	bannister, banister, balustrade, balusters, handrail	bannister, banister, balustrade, balusters, handrail	bannister, banister, balustrade, balusters, handrail	bannister, banister, balustrade, balusters, handrail
+ 	screen, CRT screen	screen, CRT screen	screen, CRT screen	screen, CRT screen
+
+ 	bell cote, bell cot	bell cote, bell cot	bell cote, bell cot	bell cote, bell cot
+
+ 	envelope	envelope	envelope	envelope
+ 	lampshade, lamp shade	lampshade, lamp shade	lampshade, lamp shade	lampshade, lamp shade
+
+ 	pot, flowerpot	pot, flowerpot	pot, flowerpot	pot, flowerpot
+ 	megalith, megalithic structure	megalith, megalithic structure	megalith, megalithic structure	megalith, megalithic structure
+ 	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+
+ 	church, church building	church, church building	church, church building	church, church building
+ 	maze, labyrinth	maze, labyrinth	maze, labyrinth	maze, labyrinth
+ 	minibus	minibus	minibus	minibus
+ 	fountain	fountain	fountain	fountain
+ 	vault	vault	vault	vault
+ 	tripod	tripod	tripod	tripod
+ 	cowboy boot	cowboy boot	cowboy boot	cowboy boot
+ 	wool, woolen, woollen	wool, woolen, woollen	wool, woolen, woollen	wool, woolen, woollen
+ 	coil, spiral, volute, whorl, helix	coil, spiral, volute, whorl, helix	coil, spiral, volute, whorl, helix	coil, spiral, volute, whorl, helix
+ 	barbershop	barbershop	barbershop	barbershop
+ 	notebook, notebook computer	notebook, notebook computer	notebook, notebook computer	notebook, notebook computer
+
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	packet	packet	packet	packet
+
+ 	wreck	wreck	wreck	wreck 	garbage truck, dustcart	garbage truck, dustcart	garbage truck, dustcart
+ 	leopard, Panthera pardus	leopard, Panthera pardus	leopard, Panthera pardus	leopard, Panthera pardus
+ 	bonnet, poke bonnet	bonnet, poke bonnet	bonnet, poke bonnet	bonnet, poke bonnet
+ 	barn	barn	barn	barn
+ 	mobile home, manufactured home	mobile home, manufactured home	mobile home, manufactured home	mobile home, manufactured home
+ 	scuba diver	scuba diver	scuba diver	scuba diver
+ 	fountain	fountain	fountain	fountain
+ 	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+ 	pillow	pillow	pillow	pillow
+ 	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes
+
+
+ 	palace	palace	palace	palace
+ 	pinwheel	pinwheel	pinwheel	pinwheel
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	barbershop	barbershop	barbershop	barbershop
+ 	street sign	street sign	street sign	street sign
+ 	Egyptian cat	Egyptian cat	Egyptian cat	Egyptian cat
+
+ 	lifeboat	lifeboat	lifeboat	lifeboat 	fireboat	fireboat	fireboat
+
+ 	hammerhead, hammerhead shark	hammerhead, hammerhead shark	hammerhead, hammerhead shark	hammerhead, hammerhead shark 	tiger shark, Galeocerdo cuvieri	tiger shark, Galeocerdo cuvieri	tiger shark, Galeocerdo cuvieri
+ 	matchstick	matchstick	matchstick	matchstick 	candle, taper, wax light	candle, taper, wax light	candle, taper, wax light
+ 	English foxhound	English foxhound	English foxhound	English foxhound
+
+
+ 	castle	castle	castle	castle
+ 	street sign	street sign	street sign	street sign
+ 	barn	barn	barn	barn
+ 	coral reef	coral reef	coral reef	coral reef 	scuba diver	scuba diver	scuba diver
+ 	submarine, pigboat, sub, U-boat	submarine, pigboat, sub, U-boat	submarine, pigboat, sub, U-boat	submarine, pigboat, sub, U-boat 	warplane, military plane	warplane, military plane	warplane, military plane
+ 	wreck	wreck	wreck	wreck
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+ 	valley, vale	valley, vale	valley, vale	valley, vale 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	church, church building	church, church building	church, church building	church, church building 	stupa, tope	stupa, tope	stupa, tope
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat
+
+
+
+ 	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab
+ 	miniskirt, mini	miniskirt, mini	miniskirt, mini	miniskirt, mini
+ 	ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle	ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle	ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle	ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle
+ 	park bench	park bench	park bench	park bench
+ 	wreck	wreck	wreck	wreck
+ 	whippet	whippet	whippet	whippet 	Rhodesian ridgeback	Rhodesian ridgeback	Rhodesian ridgeback
+ 	barn	barn	barn	barn
+ 	ox	ox	ox	ox
+ 	church, church building	church, church building	church, church building	church, church building
+
+ 	conch	conch	conch	conch
+
+ 	Chihuahua	Chihuahua	Chihuahua	Chihuahua 	sunglasses, dark glasses, shades	sunglasses, dark glasses, shades	sunglasses, dark glasses, shades
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff
+ 	Shetland sheepdog, Shetland sheep dog, Shetland	Shetland sheepdog, Shetland sheep dog, Shetland	Shetland sheepdog, Shetland sheep dog, Shetland	Shetland sheepdog, Shetland sheep dog, Shetland
+ 	palace	palace	palace	palace
+ 	palace	palace	palace	palace
+ 	toyshop	toyshop	toyshop	toyshop 	tobacco shop, tobacconist shop, tobacconist	tobacco shop, tobacconist shop, tobacconist	tobacco shop, tobacconist shop, tobacconist
+
+
+ 	wing	wing	wing	wing
+ 	Egyptian cat	Egyptian cat	Egyptian cat	Egyptian cat
+
+ 	coral reef	coral reef	coral reef	coral reef 	scuba diver	scuba diver	scuba diver
+
+ 	amphibian, amphibious vehicle	amphibian, amphibious vehicle	amphibian, amphibious vehicle	amphibian, amphibious vehicle
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	triumphal arch	triumphal arch	triumphal arch	triumphal arch
+ 	bison	bison	bison	bison
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+ 	grille, radiator grille	grille, radiator grille	grille, radiator grille	grille, radiator grille
+ 	volcano	volcano	volcano	volcano
+ 	porcupine, hedgehog	porcupine, hedgehog	porcupine, hedgehog	porcupine, hedgehog
+ 	balloon	balloon	balloon	balloon
+ 	moped	moped	moped	moped
+ 	pedestal, plinth, footstall	pedestal, plinth, footstall	pedestal, plinth, footstall	pedestal, plinth, footstall
+ 	palace	palace	palace	palace
+ 	lynx, catamount	lynx, catamount	lynx, catamount	lynx, catamount
+ 	alp	alp	alp	alp
+ 	street sign	street sign	street sign	street sign
+
+ 	sorrel	sorrel	sorrel	sorrel
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	mosque	mosque	mosque	mosque
+ 	desk	desk	desk	desk
+ 	steam locomotive	steam locomotive	steam locomotive	steam locomotive
+ 	cornet, horn, trumpet, trump	cornet, horn, trumpet, trump	cornet, horn, trumpet, trump	cornet, horn, trumpet, trump
+ 	church, church building	church, church building	church, church building	church, church building
+ 	soccer ball	soccer ball	soccer ball	soccer ball 	rugby ball	rugby ball	rugby ball
+
+ 	tiger cat	tiger cat	tiger cat	tiger cat
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	chickadee	chickadee	chickadee	chickadee
+ 	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex 	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
+ 	wreck	wreck	wreck	wreck
+
+
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+
+ 	ox	ox	ox	ox
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab
+
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper
+ 	monastery	monastery	monastery	monastery
+ 	paddle, boat paddle	paddle, boat paddle	paddle, boat paddle	paddle, boat paddle
+ 	bikini, two-piece	bikini, two-piece	bikini, two-piece	bikini, two-piece
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+
+ 	Irish terrier	Irish terrier	Irish terrier	Irish terrier
+ 	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip
+
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	bee	bee	bee	bee
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	volcano	volcano	volcano	volcano
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	fox squirrel, eastern fox squirrel, Sciurus niger	fox squirrel, eastern fox squirrel, Sciurus niger	fox squirrel, eastern fox squirrel, Sciurus niger	fox squirrel, eastern fox squirrel, Sciurus niger
+ 	plow, plough	plow, plough	plow, plough	plow, plough
+ 	monastery	monastery	monastery	monastery 	viaduct	viaduct	viaduct
+
+ 	tiger cat	tiger cat	tiger cat	tiger cat 	tabby, tabby cat	tabby, tabby cat	tabby, tabby cat
+ 	hammerhead, hammerhead shark	hammerhead, hammerhead shark	hammerhead, hammerhead shark	hammerhead, hammerhead shark 	tiger shark, Galeocerdo cuvieri	tiger shark, Galeocerdo cuvieri	tiger shark, Galeocerdo cuvieri
+ 	fountain	fountain	fountain	fountain
+ 	stage	stage	stage	stage
+ 	chainlink fence	chainlink fence	chainlink fence	chainlink fence
+
+ 	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper 	lotion	lotion	lotion
+ 	cassette	cassette	cassette	cassette
+ 	bonnet, poke bonnet	bonnet, poke bonnet	bonnet, poke bonnet	bonnet, poke bonnet
+ 	pier	pier	pier	pier
+ 	Persian cat	Persian cat	Persian cat	Persian cat
+
+ 	soft-coated wheaten terrier	soft-coated wheaten terrier	soft-coated wheaten terrier	soft-coated wheaten terrier
+
+ 	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff
+ 	airliner	airliner	airliner	airliner
+ 	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+ 	zebra	zebra	zebra	zebra
+ 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	airliner	airliner	airliner	airliner 	warplane, military plane	warplane, military plane	warplane, military plane
+ 	alp	alp	alp	alp 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	jellyfish	jellyfish	jellyfish	jellyfish 	bubble	bubble	bubble
+
+ 	church, church building	church, church building	church, church building	church, church building
+ 	shield, buckler	shield, buckler	shield, buckler	shield, buckler
+
+ 	barn	barn	barn	barn 	church, church building	church, church building	church, church building
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+ 	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+ 	teddy, teddy bear	teddy, teddy bear	teddy, teddy bear	teddy, teddy bear
+ 	photocopier	photocopier	photocopier	photocopier
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	zebra	zebra	zebra	zebra
+
+ 	tow truck, tow car, wrecker	tow truck, tow car, wrecker	tow truck, tow car, wrecker	tow truck, tow car, wrecker
+ 	church, church building	church, church building	church, church building	church, church building
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	borzoi, Russian wolfhound	borzoi, Russian wolfhound	borzoi, Russian wolfhound	borzoi, Russian wolfhound
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	snorkel	snorkel	snorkel	snorkel
+ 	bow	bow	bow	bow
+ 	palace	palace	palace	palace 	castle	castle	castle
+ 	palace	palace	palace	palace 	castle	castle	castle
+ 	alp	alp	alp	alp
+
+ 	sports car, sport car	sports car, sport car	sports car, sport car	sports car, sport car 	racer, race car, racing car	racer, race car, racing car	racer, race car, racing car
+
+ 	ox	ox	ox	ox 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	racer, race car, racing car	racer, race car, racing car	racer, race car, racing car	racer, race car, racing car
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+
+ 	canoe	canoe	canoe	canoe
+ 	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex
+
+ 	military uniform	military uniform	military uniform	military uniform
+ 	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar
+ 	sundial	sundial	sundial	sundial
+ 	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof
+ 	cloak	cloak	cloak	cloak
+ 	viaduct	viaduct	viaduct	viaduct
+ 	streetcar, tram, tramcar, trolley, trolley car	streetcar, tram, tramcar, trolley, trolley car	streetcar, tram, tramcar, trolley, trolley car	streetcar, tram, tramcar, trolley, trolley car
+ 	pier	pier	pier	pier
+ 	castle	castle	castle	castle
+
+ 	fountain	fountain	fountain	fountain 	palace	palace	palace
+ 	gar, garfish, garpike, billfish, Lepisosteus osseus	gar, garfish, garpike, billfish, Lepisosteus osseus	gar, garfish, garpike, billfish, Lepisosteus osseus	gar, garfish, garpike, billfish, Lepisosteus osseus
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+ 	monitor	monitor	monitor	monitor
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	wallaby, brush kangaroo	wallaby, brush kangaroo	wallaby, brush kangaroo	wallaby, brush kangaroo
+ 	suspension bridge	suspension bridge	suspension bridge	suspension bridge 	pier	pier	pier
+ 	loggerhead, loggerhead turtle, Caretta caretta	loggerhead, loggerhead turtle, Caretta caretta	loggerhead, loggerhead turtle, Caretta caretta	loggerhead, loggerhead turtle, Caretta caretta
+
+
+ 	alp	alp	alp	alp
+ 	goose	goose	goose	goose
+
+ 	liner, ocean liner	liner, ocean liner	liner, ocean liner	liner, ocean liner
+ 	street sign	street sign	street sign	street sign
+ 	volcano	volcano	volcano	volcano
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	space heater	space heater	space heater	space heater
+ 	monastery	monastery	monastery	monastery
+ 	volcano	volcano	volcano	volcano
+ 	scuba diver	scuba diver	scuba diver	scuba diver
+ 	alp	alp	alp	alp
+ 	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle
+ 	electric locomotive	electric locomotive	electric locomotive	electric locomotive
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	collie	collie	collie	collie
+ 	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+ 	fox squirrel, eastern fox squirrel, Sciurus niger	fox squirrel, eastern fox squirrel, Sciurus niger	fox squirrel, eastern fox squirrel, Sciurus niger	fox squirrel, eastern fox squirrel, Sciurus niger
+ 	scuba diver	scuba diver	scuba diver	scuba diver
+ 	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish
+ 	coral reef	coral reef	coral reef	coral reef
+ 	palace	palace	palace	palace
+ 	ox	ox	ox	ox
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+ 	ox	ox	ox	ox
+ 	brambling, Fringilla montifringilla	brambling, Fringilla montifringilla	brambling, Fringilla montifringilla	brambling, Fringilla montifringilla
+
+ 	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+
+ 	unicycle, monocycle	unicycle, monocycle	unicycle, monocycle	unicycle, monocycle
+ 	hummingbird	hummingbird	hummingbird	hummingbird
+
+ 	crash helmet	crash helmet	crash helmet	crash helmet
+ 	palace	palace	palace	palace
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier	American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier	American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier	American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier 	Staffordshire bullterrier, Staffordshire bull terrier	Staffordshire bullterrier, Staffordshire bull terrier	Staffordshire bullterrier, Staffordshire bull terrier
+ 	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes 	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis
+ 	pier	pier	pier	pier
+ 	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip
+ 	Labrador retriever	Labrador retriever	Labrador retriever	Labrador retriever
+ 	speedboat	speedboat	speedboat	speedboat
+ 	paddle, boat paddle	paddle, boat paddle	paddle, boat paddle	paddle, boat paddle
+ 	vault	vault	vault	vault
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	suspension bridge	suspension bridge	suspension bridge	suspension bridge 	viaduct	viaduct	viaduct
+ 	golf ball	golf ball	golf ball	golf ball
+ 	zebra	zebra	zebra	zebra
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane 	wing	wing	wing
+ 	yawl	yawl	yawl	yawl
+ 	alp	alp	alp	alp
+ 	scuba diver	scuba diver	scuba diver	scuba diver
+ 	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish
+ 	tray	tray	tray	tray 	cucumber, cuke	cucumber, cuke	cucumber, cuke
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	sunglass	sunglass	sunglass	sunglass 	sunglasses, dark glasses, shades	sunglasses, dark glasses, shades	sunglasses, dark glasses, shades
+ 	pug, pug-dog	pug, pug-dog	pug, pug-dog	pug, pug-dog
+ 	pickup, pickup truck	pickup, pickup truck	pickup, pickup truck	pickup, pickup truck
+ 	gazelle	gazelle	gazelle	gazelle
+
+ 	zebra	zebra	zebra	zebra
+
+ 	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	mouse, computer mouse	mouse, computer mouse	mouse, computer mouse	mouse, computer mouse
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke 	fountain	fountain	fountain
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane 	wing	wing	wing
+ 	nail	nail	nail	nail 	hammer	hammer	hammer
+
+ 	balloon	balloon	balloon	balloon
+ 	volcano	volcano	volcano	volcano
+ 	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship 	schooner	schooner	schooner
+ 	digital clock	digital clock	digital clock	digital clock
+
+
+ 	steel arch bridge	steel arch bridge	steel arch bridge	steel arch bridge
+
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	fountain	fountain	fountain	fountain
+ 	volcano	volcano	volcano	volcano
+ 	alp	alp	alp	alp
+ 	fountain	fountain	fountain	fountain
+ 	monastery	monastery	monastery	monastery 	fountain	fountain	fountain
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+
+ 	cinema, movie theater, movie theatre, movie house, picture palace	cinema, movie theater, movie theatre, movie house, picture palace	cinema, movie theater, movie theatre, movie house, picture palace	cinema, movie theater, movie theatre, movie house, picture palace
+ 	barn	barn	barn	barn
+ 	sorrel	sorrel	sorrel	sorrel
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+ 	military uniform	military uniform	military uniform	military uniform
+ 	spotlight, spot	spotlight, spot	spotlight, spot	spotlight, spot
+ 	dome	dome	dome	dome
+ 	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos
+ 	airliner	airliner	airliner	airliner
+ 	castle	castle	castle	castle
+ 	eel	eel	eel	eel
+ 	groom, bridegroom	groom, bridegroom	groom, bridegroom	groom, bridegroom 	safety pin	safety pin	safety pin
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+ 	zebra	zebra	zebra	zebra
+ 	dhole, Cuon alpinus	dhole, Cuon alpinus	dhole, Cuon alpinus	dhole, Cuon alpinus
+ 	church, church building	church, church building	church, church building	church, church building 	monastery	monastery	monastery
+ 	strawberry	strawberry	strawberry	strawberry
+ 	bookcase	bookcase	bookcase	bookcase 	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall
+ 	rifle	rifle	rifle	rifle 	oboe, hautboy, hautbois	oboe, hautboy, hautbois	oboe, hautboy, hautbois
+ 	ox	ox	ox	ox
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	barn	barn	barn	barn
+
+ 	desktop computer	desktop computer	desktop computer	desktop computer
+ 	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun
+ 	park bench	park bench	park bench	park bench
+ 	sleeping bag	sleeping bag	sleeping bag	sleeping bag
+
+
+ 	mosque	mosque	mosque	mosque
+
+ 	fire screen, fireguard	fire screen, fireguard	fire screen, fireguard	fire screen, fireguard
+ 	freight car	freight car	freight car	freight car
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+ 	water buffalo, water ox, Asiatic buffalo, Bubalus bubalis	water buffalo, water ox, Asiatic buffalo, Bubalus bubalis	water buffalo, water ox, Asiatic buffalo, Bubalus bubalis	water buffalo, water ox, Asiatic buffalo, Bubalus bubalis
+ 	vault	vault	vault	vault
+ 	English setter	English setter	English setter	English setter
+ 	pier	pier	pier	pier
+
+ 	volcano	volcano	volcano	volcano
+ 	ox	ox	ox	ox
+ 	speedboat	speedboat	speedboat	speedboat
+
+ 	stage	stage	stage	stage 	electric guitar	electric guitar	electric guitar
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus	ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus	ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus	ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
+ 	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks
+ 	zebra	zebra	zebra	zebra
+ 	conch	conch	conch	conch
+ 	megalith, megalithic structure	megalith, megalithic structure	megalith, megalithic structure	megalith, megalithic structure 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	American egret, great white heron, Egretta albus	American egret, great white heron, Egretta albus	American egret, great white heron, Egretta albus	American egret, great white heron, Egretta albus
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	maze, labyrinth	maze, labyrinth	maze, labyrinth	maze, labyrinth
+ 	marimba, xylophone	marimba, xylophone	marimba, xylophone	marimba, xylophone
+ 	hay	hay	hay	hay
+ 	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle
+
+ 	slot, one-armed bandit	slot, one-armed bandit	slot, one-armed bandit	slot, one-armed bandit
+ 	maze, labyrinth	maze, labyrinth	maze, labyrinth	maze, labyrinth
+ 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	mosque	mosque	mosque	mosque
+ 	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans
+ 	king penguin, Aptenodytes patagonica	king penguin, Aptenodytes patagonica	king penguin, Aptenodytes patagonica	king penguin, Aptenodytes patagonica
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	stone wall	stone wall	stone wall	stone wall
+ 	Band Aid	Band Aid	Band Aid	Band Aid
+ 	pot, flowerpot	pot, flowerpot	pot, flowerpot	pot, flowerpot
+ 	groom, bridegroom	groom, bridegroom	groom, bridegroom	groom, bridegroom
+
+ 	English setter	English setter	English setter	English setter
+ 	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans
+
+ 	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+ 	dome	dome	dome	dome
+ 	earthstar	earthstar	earthstar	earthstar
+ 	porcupine, hedgehog	porcupine, hedgehog	porcupine, hedgehog	porcupine, hedgehog
+ 	snowmobile	snowmobile	snowmobile	snowmobile
+ 	daisy	daisy	daisy	daisy
+ 	volleyball	volleyball	volleyball	volleyball
+ 	street sign	street sign	street sign	street sign
+ 	fountain	fountain	fountain	fountain
+ 	pole	pole	pole	pole
+ 	desktop computer	desktop computer	desktop computer	desktop computer
+ 	cliff dwelling	cliff dwelling	cliff dwelling	cliff dwelling
+ 	sorrel	sorrel	sorrel	sorrel
+ 	grille, radiator grille	grille, radiator grille	grille, radiator grille	grille, radiator grille
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	prayer rug, prayer mat	prayer rug, prayer mat	prayer rug, prayer mat	prayer rug, prayer mat
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	ram, tup	ram, tup	ram, tup	ram, tup
+ 	theater curtain, theatre curtain	theater curtain, theatre curtain	theater curtain, theatre curtain	theater curtain, theatre curtain
+ 	Band Aid	Band Aid	Band Aid	Band Aid
+ 	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship 	pole	pole	pole
+ 	volcano	volcano	volcano	volcano
+ 	desk	desk	desk	desk
+
+
+ 	cucumber, cuke	cucumber, cuke	cucumber, cuke	cucumber, cuke
+ 	horizontal bar, high bar	horizontal bar, high bar	horizontal bar, high bar	horizontal bar, high bar
+ 	church, church building	church, church building	church, church building	church, church building
+ 	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+ 	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+ 	weasel	weasel	weasel	weasel 	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes
+
+
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+
+ 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	airliner	airliner	airliner	airliner
+
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+ 	television, television system	television, television system	television, television system	television, television system
+ 	bathing cap, swimming cap	bathing cap, swimming cap	bathing cap, swimming cap	bathing cap, swimming cap
+
+
+ 	Indian elephant, Elephas maximus	Indian elephant, Elephas maximus	Indian elephant, Elephas maximus	Indian elephant, Elephas maximus
+ 	seat belt, seatbelt	seat belt, seatbelt	seat belt, seatbelt	seat belt, seatbelt 	zebra	zebra	zebra
+ 	zebra	zebra	zebra	zebra
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	boathouse	boathouse	boathouse	boathouse 	canoe	canoe	canoe
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+
+ 	analog clock	analog clock	analog clock	analog clock 	bell cote, bell cot	bell cote, bell cot	bell cote, bell cot
+ 	scuba diver	scuba diver	scuba diver	scuba diver 	wreck	wreck	wreck
+ 	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	standard poodle	standard poodle	standard poodle	standard poodle
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	airliner	airliner	airliner	airliner
+ 	airliner	airliner	airliner	airliner
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+ 	racer, race car, racing car	racer, race car, racing car	racer, race car, racing car	racer, race car, racing car
+ 	bee	bee	bee	bee
+ 	steel arch bridge	steel arch bridge	steel arch bridge	steel arch bridge
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+
+ 	toyshop	toyshop	toyshop	toyshop
+
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris
+ 	earthstar	earthstar	earthstar	earthstar
+ 	pug, pug-dog	pug, pug-dog	pug, pug-dog	pug, pug-dog
+ 	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo 	lynx, catamount	lynx, catamount	lynx, catamount
+ 	bald eagle, American eagle, Haliaeetus leucocephalus	bald eagle, American eagle, Haliaeetus leucocephalus	bald eagle, American eagle, Haliaeetus leucocephalus	bald eagle, American eagle, Haliaeetus leucocephalus
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+
+ 	stage	stage	stage	stage 	comic book	comic book	comic book
+
+ 	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof
+ 	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar
+
+ 	pier	pier	pier	pier
+ 	steam locomotive	steam locomotive	steam locomotive	steam locomotive
+ 	safety pin	safety pin	safety pin	safety pin
+ 	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper	book jacket, dust cover, dust jacket, dust wrapper 	comic book	comic book	comic book
+ 	prison, prison house	prison, prison house	prison, prison house	prison, prison house
+ 	palace	palace	palace	palace
+ 	suspension bridge	suspension bridge	suspension bridge	suspension bridge 	valley, vale	valley, vale	valley, vale
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff 	missile	missile	missile
+ 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+
+ 	coral reef	coral reef	coral reef	coral reef
+ 	speedboat	speedboat	speedboat	speedboat
+ 	military uniform	military uniform	military uniform	military uniform
+
+ 	English setter	English setter	English setter	English setter
+ 	airliner	airliner	airliner	airliner
+ 	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo
+ 	fire engine, fire truck	fire engine, fire truck	fire engine, fire truck	fire engine, fire truck
+ 	crane	crane	crane	crane
+ 	patio, terrace	patio, terrace	patio, terrace	patio, terrace
+ 	airliner	airliner	airliner	airliner
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	castle	castle	castle	castle
+ 	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+ 	freight car	freight car	freight car	freight car 	electric locomotive	electric locomotive	electric locomotive 	passenger car, coach, carriage	passenger car, coach, carriage
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff
+ 	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship
+
+ 	cougar, puma, catamount, mountain lion, painter, panther, Felis concolor	cougar, puma, catamount, mountain lion, painter, panther, Felis concolor	cougar, puma, catamount, mountain lion, painter, panther, Felis concolor	cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
+ 	notebook, notebook computer	notebook, notebook computer	notebook, notebook computer	notebook, notebook computer
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	monitor	monitor	monitor	monitor 	television, television system	television, television system	television, television system
+ 	chambered nautilus, pearly nautilus, nautilus	chambered nautilus, pearly nautilus, nautilus	chambered nautilus, pearly nautilus, nautilus	chambered nautilus, pearly nautilus, nautilus
+
+ 	jellyfish	jellyfish	jellyfish	jellyfish
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	umbrella	umbrella	umbrella	umbrella
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	sandal	sandal	sandal	sandal
+ 	alp	alp	alp	alp
+ 	park bench	park bench	park bench	park bench
+ 	goose	goose	goose	goose
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+
+ 	bikini, two-piece	bikini, two-piece	bikini, two-piece	bikini, two-piece
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	water ouzel, dipper	water ouzel, dipper	water ouzel, dipper	water ouzel, dipper
+ 	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos
+ 	mobile home, manufactured home	mobile home, manufactured home	mobile home, manufactured home	mobile home, manufactured home 	church, church building	church, church building	church, church building
+ 	balloon	balloon	balloon	balloon
+ 	castle	castle	castle	castle 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	tiger cat	tiger cat	tiger cat	tiger cat 	tabby, tabby cat	tabby, tabby cat	tabby, tabby cat
+ 	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans
+ 	earthstar	earthstar	earthstar	earthstar
+ 	gown	gown	gown	gown 	conch	conch	conch
+
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	recreational vehicle, RV, R.V.	recreational vehicle, RV, R.V.	recreational vehicle, RV, R.V.	recreational vehicle, RV, R.V. 	moving van	moving van	moving van
+ 	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar
+ 	kite	kite	kite	kite
+ 	fountain	fountain	fountain	fountain
+ 	crane	crane	crane	crane
+ 	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish
+ 	rugby ball	rugby ball	rugby ball	rugby ball
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+
+ 	zebra	zebra	zebra	zebra
+ 	church, church building	church, church building	church, church building	church, church building
+
+ 	airliner	airliner	airliner	airliner
+ 	Newfoundland, Newfoundland dog	Newfoundland, Newfoundland dog	Newfoundland, Newfoundland dog	Newfoundland, Newfoundland dog
+ 	trimaran	trimaran	trimaran	trimaran 	catamaran	catamaran	catamaran
+ 	fountain	fountain	fountain	fountain
+ 	sorrel	sorrel	sorrel	sorrel
+ 	picket fence, paling	picket fence, paling	picket fence, paling	picket fence, paling
+ 	carbonara	carbonara	carbonara	carbonara
+
+ 	sea anemone, anemone	sea anemone, anemone	sea anemone, anemone	sea anemone, anemone 	snail	snail	snail
+ 	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus	grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+ 	projectile, missile	projectile, missile	projectile, missile	projectile, missile
+ 	pot, flowerpot	pot, flowerpot	pot, flowerpot	pot, flowerpot 	vase	vase	vase
+ 	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship
+ 	sombrero	sombrero	sombrero	sombrero
+ 	web site, website, internet site, site	web site, website, internet site, site	web site, website, internet site, site	web site, website, internet site, site
+ 	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks
+ 	zebra	zebra	zebra	zebra
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	church, church building	church, church building	church, church building	church, church building
+ 	Afghan hound, Afghan	Afghan hound, Afghan	Afghan hound, Afghan	Afghan hound, Afghan
+ 	coral reef	coral reef	coral reef	coral reef
+ 	brambling, Fringilla montifringilla	brambling, Fringilla montifringilla	brambling, Fringilla montifringilla	brambling, Fringilla montifringilla 	robin, American robin, Turdus migratorius	robin, American robin, Turdus migratorius	robin, American robin, Turdus migratorius
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	horse cart, horse-cart	horse cart, horse-cart	horse cart, horse-cart	horse cart, horse-cart
+ 	comic book	comic book	comic book	comic book
+ 	desk	desk	desk	desk 	screen, CRT screen	screen, CRT screen	screen, CRT screen
+ 	desktop computer	desktop computer	desktop computer	desktop computer
+
+
+ 	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish	puffer, pufferfish, blowfish, globefish 	sea slug, nudibranch	sea slug, nudibranch	sea slug, nudibranch
+ 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	unicycle, monocycle	unicycle, monocycle	unicycle, monocycle	unicycle, monocycle
+ 	airliner	airliner	airliner	airliner
+ 	lipstick, lip rouge	lipstick, lip rouge	lipstick, lip rouge	lipstick, lip rouge
+ 	megalith, megalithic structure	megalith, megalithic structure	megalith, megalithic structure	megalith, megalithic structure
+ 	mailbag, postbag	mailbag, postbag	mailbag, postbag	mailbag, postbag
+
+ 	loggerhead, loggerhead turtle, Caretta caretta	loggerhead, loggerhead turtle, Caretta caretta	loggerhead, loggerhead turtle, Caretta caretta	loggerhead, loggerhead turtle, Caretta caretta 	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+ 	gondola	gondola	gondola	gondola
+ 	bubble	bubble	bubble	bubble
+ 	barbershop	barbershop	barbershop	barbershop
+
+ 	liner, ocean liner	liner, ocean liner	liner, ocean liner	liner, ocean liner
+ 	bakery, bakeshop, bakehouse	bakery, bakeshop, bakehouse	bakery, bakeshop, bakehouse	bakery, bakeshop, bakehouse
+
+ 	sorrel	sorrel	sorrel	sorrel
+ 	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius
+ 	zebra	zebra	zebra	zebra
+ 	Norfolk terrier	Norfolk terrier	Norfolk terrier	Norfolk terrier
+ 	robin, American robin, Turdus migratorius	robin, American robin, Turdus migratorius	robin, American robin, Turdus migratorius	robin, American robin, Turdus migratorius
+ 	trifle	trifle	trifle	trifle
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast 	pier	pier	pier
+ 	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans
+ 	groom, bridegroom	groom, bridegroom	groom, bridegroom	groom, bridegroom
+
+ 	street sign	street sign	street sign	street sign
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff
+ 	jeep, landrover	jeep, landrover	jeep, landrover	jeep, landrover 	half track	half track	half track
+ 	alp	alp	alp	alp
+
+
+ 	anemone fish	anemone fish	anemone fish	anemone fish
+
+ 	home theater, home theatre	home theater, home theatre	home theater, home theatre	home theater, home theatre
+ 	patio, terrace	patio, terrace	patio, terrace	patio, terrace
+ 	maypole	maypole	maypole	maypole 	suspension bridge	suspension bridge	suspension bridge
+ 	albatross, mollymawk	albatross, mollymawk	albatross, mollymawk	albatross, mollymawk 	vulture	vulture	vulture
+ 	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship	pirate, pirate ship
+
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff
+ 	recreational vehicle, RV, R.V.	recreational vehicle, RV, R.V.	recreational vehicle, RV, R.V.	recreational vehicle, RV, R.V.
+ 	schooner	schooner	schooner	schooner
+ 	cricket	cricket	cricket	cricket
+
+
+ 	scuba diver	scuba diver	scuba diver	scuba diver 	coral reef	coral reef	coral reef
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+
+ 	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos
+
+ 	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar	sandbar, sand bar
+ 	nail	nail	nail	nail
+
+ 	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos	beacon, lighthouse, beacon light, pharos
+ 	airliner	airliner	airliner	airliner
+ 	lighter, light, igniter, ignitor	lighter, light, igniter, ignitor	lighter, light, igniter, ignitor	lighter, light, igniter, ignitor
+ 	gazelle	gazelle	gazelle	gazelle 	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus
+
+ 	volcano	volcano	volcano	volcano
+ 	rain barrel	rain barrel	rain barrel	rain barrel
+ 	paddle, boat paddle	paddle, boat paddle	paddle, boat paddle	paddle, boat paddle
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos
+ 	speedboat	speedboat	speedboat	speedboat
+ 	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader
+ 	maze, labyrinth	maze, labyrinth	maze, labyrinth	maze, labyrinth
+ 	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight
+ 	espresso	espresso	espresso	espresso
+ 	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight
+ 	flat-coated retriever	flat-coated retriever	flat-coated retriever	flat-coated retriever
+ 	stingray	stingray	stingray	stingray
+ 	lens cap, lens cover	lens cap, lens cover	lens cap, lens cover	lens cap, lens cover
+ 	ballplayer, baseball player	ballplayer, baseball player	ballplayer, baseball player	ballplayer, baseball player
+ 	pole	pole	pole	pole
+ 	jeep, landrover	jeep, landrover	jeep, landrover	jeep, landrover
+ 	shopping cart	shopping cart	shopping cart	shopping cart
+ 	canoe	canoe	canoe	canoe
+
+ 	spotlight, spot	spotlight, spot	spotlight, spot	spotlight, spot
+ 	snorkel	snorkel	snorkel	snorkel
+ 	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos	brown bear, bruin, Ursus arctos
+ 	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat	lab coat, laboratory coat
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	gazelle	gazelle	gazelle	gazelle
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	cloak	cloak	cloak	cloak
+
+ 	rock beauty, Holocanthus tricolor	rock beauty, Holocanthus tricolor	rock beauty, Holocanthus tricolor	rock beauty, Holocanthus tricolor
+ 	Eskimo dog, husky	Eskimo dog, husky	Eskimo dog, husky	Eskimo dog, husky
+ 	desktop computer	desktop computer	desktop computer	desktop computer
+ 	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus
+ 	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle
+
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+ 	rugby ball	rugby ball	rugby ball	rugby ball
+
+ 	pedestal, plinth, footstall	pedestal, plinth, footstall	pedestal, plinth, footstall	pedestal, plinth, footstall
+ 	scuba diver	scuba diver	scuba diver	scuba diver
+ 	freight car	freight car	freight car	freight car
+ 	pier	pier	pier	pier
+ 	viaduct	viaduct	viaduct	viaduct
+ 	castle	castle	castle	castle
+ 	screen, CRT screen	screen, CRT screen	screen, CRT screen	screen, CRT screen
+ 	lynx, catamount	lynx, catamount	lynx, catamount	lynx, catamount
+ 	daisy	daisy	daisy	daisy
+ 	daisy	daisy	daisy	daisy
+
+ 	barn	barn	barn	barn 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	fountain	fountain	fountain	fountain
+ 	freight car	freight car	freight car	freight car
+ 	barn	barn	barn	barn
+
+ 	boathouse	boathouse	boathouse	boathouse 	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof
+ 	motor scooter, scooter	motor scooter, scooter	motor scooter, scooter	motor scooter, scooter
+ 	military uniform	military uniform	military uniform	military uniform
+ 	steel arch bridge	steel arch bridge	steel arch bridge	steel arch bridge
+ 	bald eagle, American eagle, Haliaeetus leucocephalus	bald eagle, American eagle, Haliaeetus leucocephalus	bald eagle, American eagle, Haliaeetus leucocephalus	bald eagle, American eagle, Haliaeetus leucocephalus
+ 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	church, church building	church, church building	church, church building	church, church building
+ 	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+ 	mask	mask	mask	mask
+ 	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius
+ 	desktop computer	desktop computer	desktop computer	desktop computer 	radio, wireless	radio, wireless	radio, wireless
+ 	ballplayer, baseball player	ballplayer, baseball player	ballplayer, baseball player	ballplayer, baseball player
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	passenger car, coach, carriage	passenger car, coach, carriage	passenger car, coach, carriage	passenger car, coach, carriage
+ 	palace	palace	palace	palace
+ 	zebra	zebra	zebra	zebra
+ 	panpipe, pandean pipe, syrinx	panpipe, pandean pipe, syrinx	panpipe, pandean pipe, syrinx	panpipe, pandean pipe, syrinx
+ 	harmonica, mouth organ, harp, mouth harp	harmonica, mouth organ, harp, mouth harp	harmonica, mouth organ, harp, mouth harp	harmonica, mouth organ, harp, mouth harp
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight
+ 	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis 	hartebeest	hartebeest	hartebeest
+ 	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex
+ 	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans	coyote, prairie wolf, brush wolf, Canis latrans
+ 	pier	pier	pier	pier
+
+ 	dhole, Cuon alpinus	dhole, Cuon alpinus	dhole, Cuon alpinus	dhole, Cuon alpinus
+
+ 	palace	palace	palace	palace 	stupa, tope	stupa, tope	stupa, tope
+ 	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius	Arabian camel, dromedary, Camelus dromedarius
+ 	groom, bridegroom	groom, bridegroom	groom, bridegroom	groom, bridegroom
+ 	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+
+ 	moving van	moving van	moving van	moving van
+ 	alp	alp	alp	alp
+
+ 	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader
+ 	rapeseed	rapeseed	rapeseed	rapeseed 	valley, vale	valley, vale	valley, vale
+ 	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun
+ 	airliner	airliner	airliner	airliner
+ 	pole	pole	pole	pole
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+
+ 	sundial	sundial	sundial	sundial
+ 	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex
+ 	carbonara	carbonara	carbonara	carbonara
+ 	church, church building	church, church building	church, church building	church, church building
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca 	tiger shark, Galeocerdo cuvieri	tiger shark, Galeocerdo cuvieri	tiger shark, Galeocerdo cuvieri
+ 	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof	thatch, thatched roof
+ 	jellyfish	jellyfish	jellyfish	jellyfish
+
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	television, television system	television, television system	television, television system	television, television system
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	basset, basset hound	basset, basset hound	basset, basset hound	basset, basset hound
+ 	plate rack	plate rack	plate rack	plate rack
+
+
+ 	castle	castle	castle	castle
+ 	cinema, movie theater, movie theatre, movie house, picture palace	cinema, movie theater, movie theatre, movie house, picture palace	cinema, movie theater, movie theatre, movie house, picture palace	cinema, movie theater, movie theatre, movie house, picture palace
+ 	lynx, catamount	lynx, catamount	lynx, catamount	lynx, catamount
+
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff 	pole	pole	pole
+ 	castle	castle	castle	castle
+ 	electric locomotive	electric locomotive	electric locomotive	electric locomotive 	passenger car, coach, carriage	passenger car, coach, carriage	passenger car, coach, carriage
+ 	comic book	comic book	comic book	comic book
+ 	prison, prison house	prison, prison house	prison, prison house	prison, prison house
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+
+ 	bikini, two-piece	bikini, two-piece	bikini, two-piece	bikini, two-piece
+
+ 	oxygen mask	oxygen mask	oxygen mask	oxygen mask
+ 	wallaby, brush kangaroo	wallaby, brush kangaroo	wallaby, brush kangaroo	wallaby, brush kangaroo
+ 	military uniform	military uniform	military uniform	military uniform 	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+
+ 	warplane, military plane	warplane, military plane	warplane, military plane	warplane, military plane
+ 	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	king penguin, Aptenodytes patagonica	king penguin, Aptenodytes patagonica	king penguin, Aptenodytes patagonica	king penguin, Aptenodytes patagonica
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	fireboat	fireboat	fireboat	fireboat
+ 	obelisk	obelisk	obelisk	obelisk
+
+ 	dome	dome	dome	dome
+
+ 	pole	pole	pole	pole 	volleyball	volleyball	volleyball
+ 	stone wall	stone wall	stone wall	stone wall
+ 	snorkel	snorkel	snorkel	snorkel
+ 	snail	snail	snail	snail
+ 	fountain	fountain	fountain	fountain
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	golf ball	golf ball	golf ball	golf ball
+ 	steam locomotive	steam locomotive	steam locomotive	steam locomotive
+
+ 	jeep, landrover	jeep, landrover	jeep, landrover	jeep, landrover 	minibus	minibus	minibus
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+ 	castle	castle	castle	castle
+ 	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus
+ 	pier	pier	pier	pier
+ 	llama	llama	llama	llama
+ 	parking meter	parking meter	parking meter	parking meter
+ 	rugby ball	rugby ball	rugby ball	rugby ball
+
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca 	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	volcano	volcano	volcano	volcano
+ 	matchstick	matchstick	matchstick	matchstick
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	ox	ox	ox	ox
+
+ 	rapeseed	rapeseed	rapeseed	rapeseed
+ 	fountain	fountain	fountain	fountain
+ 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	zucchini, courgette	zucchini, courgette	zucchini, courgette	zucchini, courgette 	cucumber, cuke	cucumber, cuke	cucumber, cuke
+ 	snowplow, snowplough	snowplow, snowplough	snowplow, snowplough	snowplow, snowplough
+ 	fountain	fountain	fountain	fountain
+ 	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence	worm fence, snake fence, snake-rail fence, Virginia fence
+ 	airliner	airliner	airliner	airliner
+ 	fountain	fountain	fountain	fountain
+ 	jinrikisha, ricksha, rickshaw	jinrikisha, ricksha, rickshaw	jinrikisha, ricksha, rickshaw	jinrikisha, ricksha, rickshaw
+ 	canoe	canoe	canoe	canoe
+ 	dishwasher, dish washer, dishwashing machine	dishwasher, dish washer, dishwashing machine	dishwasher, dish washer, dishwashing machine	dishwasher, dish washer, dishwashing machine
+ 	gazelle	gazelle	gazelle	gazelle 	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex
+ 	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes
+ 	boathouse	boathouse	boathouse	boathouse 	paddlewheel, paddle wheel	paddlewheel, paddle wheel	paddlewheel, paddle wheel
+ 	missile	missile	missile	missile 	projectile, missile	projectile, missile	projectile, missile
+
+ 	hay	hay	hay	hay 	barn	barn	barn
+ 	fountain	fountain	fountain	fountain
+
+ 	vulture	vulture	vulture	vulture
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	potter's wheel	potter's wheel	potter's wheel	potter's wheel
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	miniskirt, mini	miniskirt, mini	miniskirt, mini	miniskirt, mini
+ 	fireboat	fireboat	fireboat	fireboat 	fountain	fountain	fountain
+ 	tank, army tank, armored combat vehicle, armoured combat vehicle	tank, army tank, armored combat vehicle, armoured combat vehicle	tank, army tank, armored combat vehicle, armoured combat vehicle	tank, army tank, armored combat vehicle, armoured combat vehicle
+
+ 	tile roof	tile roof	tile roof	tile roof 	monastery	monastery	monastery
+ 	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff	flagpole, flagstaff
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	gasmask, respirator, gas helmet	gasmask, respirator, gas helmet	gasmask, respirator, gas helmet	gasmask, respirator, gas helmet 	oxygen mask	oxygen mask	oxygen mask
+ 	aircraft carrier, carrier, flattop, attack aircraft carrier	aircraft carrier, carrier, flattop, attack aircraft carrier	aircraft carrier, carrier, flattop, attack aircraft carrier	aircraft carrier, carrier, flattop, attack aircraft carrier
+
+ 	ski	ski	ski	ski
+ 	sorrel	sorrel	sorrel	sorrel
+ 	maze, labyrinth	maze, labyrinth	maze, labyrinth	maze, labyrinth
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+ 	volleyball	volleyball	volleyball	volleyball 	racket, racquet	racket, racquet	racket, racquet
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+ 	menu	menu	menu	menu 	jigsaw puzzle	jigsaw puzzle	jigsaw puzzle
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	French bulldog	French bulldog	French bulldog	French bulldog
+ 	pier	pier	pier	pier
+ 	bubble	bubble	bubble	bubble
+ 	chainlink fence	chainlink fence	chainlink fence	chainlink fence
+ 	hartebeest	hartebeest	hartebeest	hartebeest
+
+
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+
+ 	envelope	envelope	envelope	envelope 	comic book	comic book	comic book
+ 	mixing bowl	mixing bowl	mixing bowl	mixing bowl
+ 	daisy	daisy	daisy	daisy
+
+
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+
+ 	envelope	envelope	envelope	envelope
+
+ 	pole	pole	pole	pole
+ 	castle	castle	castle	castle
+ 	palace	palace	palace	palace
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo	lion, king of beasts, Panthera leo
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	goldfish, Carassius auratus	goldfish, Carassius auratus	goldfish, Carassius auratus	goldfish, Carassius auratus
+ 	freight car	freight car	freight car	freight car
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	volcano	volcano	volcano	volcano
+ 	spotlight, spot	spotlight, spot	spotlight, spot	spotlight, spot
+ 	thimble	thimble	thimble	thimble
+ 	pole	pole	pole	pole
+ 	groom, bridegroom	groom, bridegroom	groom, bridegroom	groom, bridegroom
+ 	Model T	Model T	Model T	Model T
+
+ 	minivan	minivan	minivan	minivan
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+
+
+ 	snorkel	snorkel	snorkel	snorkel
+ 	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab	cab, hack, taxi, taxicab
+ 	mantis, mantid	mantis, mantid	mantis, mantid	mantis, mantid
+
+
+ 	bannister, banister, balustrade, balusters, handrail	bannister, banister, balustrade, balusters, handrail	bannister, banister, balustrade, balusters, handrail	bannister, banister, balustrade, balusters, handrail 	car mirror	car mirror	car mirror
+ 	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca	killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+ 	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke	dam, dike, dyke
+ 	sliding door	sliding door	sliding door	sliding door
+ 	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+ 	zebra	zebra	zebra	zebra
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	soccer ball	soccer ball	soccer ball	soccer ball
+ 	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus	impala, Aepyceros melampus
+ 	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall	bookshop, bookstore, bookstall
+ 	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris	tiger, Panthera tigris 	tiger cat	tiger cat	tiger cat
+ 	church, church building	church, church building	church, church building	church, church building
+
+ 	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex	ibex, Capra ibex
+ 	sea lion	sea lion	sea lion	sea lion
+ 	torch	torch	torch	torch
+
+ 	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes	red fox, Vulpes vulpes 	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis	kit fox, Vulpes macrotis
+ 	ram, tup	ram, tup	ram, tup	ram, tup 	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
+ 	grille, radiator grille	grille, radiator grille	grille, radiator grille	grille, radiator grille
+ 	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	alp	alp	alp	alp 	ski	ski	ski
+ 	ox	ox	ox	ox
+
+ 	suspension bridge	suspension bridge	suspension bridge	suspension bridge
+ 	jellyfish	jellyfish	jellyfish	jellyfish
+ 	beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon	beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon	beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon	beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon
+ 	panpipe, pandean pipe, syrinx	panpipe, pandean pipe, syrinx	panpipe, pandean pipe, syrinx	panpipe, pandean pipe, syrinx
+ 	apiary, bee house	apiary, bee house	apiary, bee house	apiary, bee house
+
+
+ 	racket, racquet	racket, racquet	racket, racquet	racket, racquet
+ 	church, church building	church, church building	church, church building	church, church building 	castle	castle	castle
+ 	pole	pole	pole	pole
+ 	valley, vale	valley, vale	valley, vale	valley, vale 	promontory, headland, head, foreland	promontory, headland, head, foreland	promontory, headland, head, foreland
+ 	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip	hip, rose hip, rosehip
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+ 	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off	cliff, drop, drop-off
+ 	church, church building	church, church building	church, church building	church, church building 	alp	alp	alp
+ 	Model T	Model T	Model T	Model T
+
+ 	pickup, pickup truck	pickup, pickup truck	pickup, pickup truck	pickup, pickup truck
+ 	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore	lakeside, lakeshore
+ 	pier	pier	pier	pier
+ 	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks	swimming trunks, bathing trunks
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	triceratops	triceratops	triceratops	triceratops
+ 	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility	dock, dockage, docking facility
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	web site, website, internet site, site	web site, website, internet site, site	web site, website, internet site, site	web site, website, internet site, site
+ 	streetcar, tram, tramcar, trolley, trolley car	streetcar, tram, tramcar, trolley, trolley car	streetcar, tram, tramcar, trolley, trolley car	streetcar, tram, tramcar, trolley, trolley car 	passenger car, coach, carriage	passenger car, coach, carriage	passenger car, coach, carriage
+ 	hay	hay	hay	hay
+ 	zebra	zebra	zebra	zebra
+ 	stupa, tope	stupa, tope	stupa, tope	stupa, tope
+
+
+ 	sports car, sport car	sports car, sport car	sports car, sport car	sports car, sport car
+ 	unicycle, monocycle	unicycle, monocycle	unicycle, monocycle	unicycle, monocycle
+
+ 	military uniform	military uniform	military uniform	military uniform
+ 	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse	greenhouse, nursery, glasshouse
+ 	web site, website, internet site, site	web site, website, internet site, site	web site, website, internet site, site	web site, website, internet site, site
+ 	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader
+ 	Yorkshire terrier	Yorkshire terrier	Yorkshire terrier	Yorkshire terrier
+ 	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight	traffic light, traffic signal, stoplight
+ 	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader	mountain bike, all-terrain bike, off-roader
+
+ 	barn	barn	barn	barn
+ 	sorrel	sorrel	sorrel	sorrel
+ 	suspension bridge	suspension bridge	suspension bridge	suspension bridge
+ 	volcano	volcano	volcano	volcano
+ 	cliff dwelling	cliff dwelling	cliff dwelling	cliff dwelling
+ 	palace	palace	palace	palace 	mosque	mosque	mosque
+ 	church, church building	church, church building	church, church building	church, church building
+ 	American alligator, Alligator mississipiensis	American alligator, Alligator mississipiensis	American alligator, Alligator mississipiensis	American alligator, Alligator mississipiensis
+ 	freight car	freight car	freight car	freight car
+
+ 	sports car, sport car	sports car, sport car	sports car, sport car	sports car, sport car 	racer, race car, racing car	racer, race car, racing car	racer, race car, racing car
+
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+ 	maypole	maypole	maypole	maypole
+ 	sunglass	sunglass	sunglass	sunglass
+ 	fireboat	fireboat	fireboat	fireboat 	fountain	fountain	fountain
+ 	sliding door	sliding door	sliding door	sliding door
+ 	bathing cap, swimming cap	bathing cap, swimming cap	bathing cap, swimming cap	bathing cap, swimming cap
+ 	coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch	coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch	coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch	coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch
+ 	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty	breakwater, groin, groyne, mole, bulwark, seawall, jetty
+ 	pot, flowerpot	pot, flowerpot	pot, flowerpot	pot, flowerpot
+ 	speedboat	speedboat	speedboat	speedboat
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+
+ 	motor scooter, scooter	motor scooter, scooter	motor scooter, scooter	motor scooter, scooter
+ 	sorrel	sorrel	sorrel	sorrel
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	punching bag, punch bag, punching ball, punchball	punching bag, punch bag, punching ball, punchball	punching bag, punch bag, punching ball, punchball	punching bag, punch bag, punching ball, punchball
+ 	fountain	fountain	fountain	fountain 	geyser	geyser	geyser
+
+ 	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast	seashore, coast, seacoast, sea-coast
+ 	valley, vale	valley, vale	valley, vale	valley, vale
+
+ 	trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi	trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi	trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi	trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi
+ 	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun	assault rifle, assault gun 	rifle	rifle	rifle
+ 	church, church building	church, church building	church, church building	church, church building
+
+ 	cowboy hat, ten-gallon hat	cowboy hat, ten-gallon hat	cowboy hat, ten-gallon hat	cowboy hat, ten-gallon hat 	sombrero	sombrero	sombrero
+ 	church, church building	church, church building	church, church building	church, church building 	gas pump, gasoline pump, petrol pump, island dispenser	gas pump, gasoline pump, petrol pump, island dispenser	gas pump, gasoline pump, petrol pump, island dispenser
