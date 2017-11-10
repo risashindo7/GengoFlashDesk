@@ -160,7 +160,7 @@ class CardWindow:
         menubar.add_command(label="Edit", command = self.edit_card)
         menubar.add_command(label="Translate", command = self.propose_translation)
         menubar.add_command(label="Save edit", command = self.confirm_edit_card)
-        menubar.add_command(label="Add Image")#, command = self.confirm_edit_card)
+        menubar.add_command(label="Add/Edit Image")#, command = self.confirm_edit_card)
 
         # display the menu
         master.config(menu=menubar)
@@ -193,14 +193,18 @@ class CardWindow:
         window.resizable(width = True, height = True)
         window.configure(background='grey')
         
-        path = "tiger.jpg"
+        path = "ox.jpg"
         
         img = ImageTk.PhotoImage(Image.open(path))
         self.imagePanel = Tkinter.Label(window, image = img)
         self.imagePanel.image = img
         self.imagePanel.grid(column = 0, row = 4)
-        #self.imagePanel.place(x = 0, y = 4)
-        #self.imagePanel.pack(side="top", fill="both", expand=True)
+        #centering image
+        window.grid_rowconfigure(3, weight=1)
+        window.grid_rowconfigure(5, weight=1)
+        window.grid_columnconfigure(3, weight=1)
+        window.grid_columnconfigure(5, weight=1)
+
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
 
