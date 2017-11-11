@@ -148,6 +148,7 @@ class CardWindow:
         self.currentIndex = 0
         self.language = language
         self.frame = Tkinter.Frame(self.master)
+        self.image_path_pairs = {0: "", 1: ""}
         self.initialize(master)
         
     def initialize(self, master):
@@ -193,24 +194,23 @@ class CardWindow:
         self.frame1 = Tkinter.Frame(self.master)
         self.frame1.grid()
         
-        path = "ox.jpg"
-        self.show_image(path)
+        self.show_image()
         
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
         
-        self.image_path_pairs = {0: None, 1: None}
+        
         for i in range(len(self.cardSet)):
             self.image_path_pairs[i] = ""
             
 
-    def show_image(self, path):
+    def show_image(self):
         #refresh
         for label in self.frame1.grid_slaves():
             if int(label.grid_info()["row"]) < 6:
                 label.grid_forget()
                 
-        #path = self.image_path_pairs.get(self.currentIndex)
+        path = self.image_path_pairs.get(self.currentIndex)
         if (path != ""):
             img = ImageTk.PhotoImage(Image.open(path))
             imagePanel = Tkinter.Label(self.frame1, image = img)
@@ -242,16 +242,16 @@ class CardWindow:
         
         ImgButton1 = Tkinter.Button(self.frame1, image = img_sample,
                                 height = 100, width = 125, bg = "white", 
-                                command = lambda: self.image_button(1))
+                                command = lambda: self.image_button(""))
         ImgButton2 = Tkinter.Button(self.frame1, image = img_sample,
                                 height = 100, width = 125, bg = "white", 
-                                command = lambda: self.image_button(2))
+                                command = lambda: self.image_button(""))
         ImgButton3 = Tkinter.Button(self.frame1, image = img_sample,
                                 height = 100, width = 125, bg = "white", 
-                                command = lambda: self.image_button(3))
+                                command = lambda: self.image_button(""))
         ImgButton4 = Tkinter.Button(self.frame1, image = img_sample,
                                 height = 100, width = 125, bg = "white", 
-                                command = lambda: self.image_button(4))
+                                command = lambda: self.image_button(""))
         notFound = Tkinter.Text(self.frame1, width = 40, height = 4)
         notFound.tag_configure("center", justify='center')
         notFound.insert("1.0", "No Relevant Images Found", "center")
@@ -279,7 +279,7 @@ class CardWindow:
             self.imagePanel = Tkinter.Label(self.frame1, image = img1, text = "Image 1")
             self.imagePanel.image = img1
             #self.imagePanel.grid(column = 0, row = 5)
-            ImgButton1.config(image = img1)
+            ImgButton1.config(image = img1, command = lambda: self.image_button(path_array[0]))
             ImgButton1.grid(column = 0, row = 4)
             
             
@@ -294,8 +294,8 @@ class CardWindow:
             self.imagePanel1.image = img1
             self.imagePanel2 = Tkinter.Label(self.frame1, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
-            ImgButton1.config(image = img1)
-            ImgButton2.config(image = img2)
+            ImgButton1.config(image = img1, command = lambda: self.image_button(path_array[0]))
+            ImgButton2.config(image = img2, command = lambda: self.image_button(path_array[1]))
             ImgButton1.grid(column = 0, row = 4)
             ImgButton2.grid(column = 1, row = 4)
 
@@ -316,9 +316,9 @@ class CardWindow:
             self.imagePanel2.image = img2
             self.imagePanel3 = Tkinter.Label(self.frame1, image = img3, text = "Image 3")
             self.imagePanel3.image = img3
-            ImgButton1.config(image = img1)
-            ImgButton2.config(image = img2)
-            ImgButton3.config(image = img3)
+            ImgButton1.config(image = img1, command = lambda: self.image_button(path_array[0]))
+            ImgButton2.config(image = img2, command = lambda: self.image_button(path_array[1]))
+            ImgButton3.config(image = img3, command = lambda: self.image_button(path_array[2]))
             ImgButton1.grid(column = 0, row = 4)
             ImgButton2.grid(column = 1, row = 4)
             ImgButton3.grid(column = 2, row = 4)
@@ -345,10 +345,10 @@ class CardWindow:
             self.imagePanel3.image = img3
             self.imagePanel4 = Tkinter.Label(self.frame1, image = img4, text = "Image 4")
             self.imagePanel4.image = img4
-            ImgButton1.config(image = img1)
-            ImgButton2.config(image = img2)
-            ImgButton3.config(image = img3)
-            ImgButton4.config(image = img4)
+            ImgButton1.config(image = img1, command = lambda: self.image_button(path_array[0]))
+            ImgButton2.config(image = img2, command = lambda: self.image_button(path_array[1]))
+            ImgButton3.config(image = img3, command = lambda: self.image_button(path_array[2]))
+            ImgButton4.config(image = img4, command = lambda: self.image_button(path_array[3]))
             ImgButton1.grid(column = 0, row = 4)
             ImgButton2.grid(column = 1, row = 4)
             ImgButton3.grid(column = 0, row = 5)
@@ -356,8 +356,9 @@ class CardWindow:
 
         
     def image_button(self, value):
-        print("button pressed: "+ str(value))
-        #self.show_image()
+        print("path chosen: "+ value)
+        self.image_path_pairs[self.currentIndex] = value
+        self.show_image()
         
     def propose_translation(self):
         if (self.answerText['state'] == 'normal'):
@@ -417,6 +418,7 @@ class CardWindow:
         self.currentCard = self.cardSet[self.currentIndex]
         self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
         self.questionText.config(state= Tkinter.DISABLED)
+        self.show_image()
     
     
     def previous_card(self):
@@ -433,6 +435,7 @@ class CardWindow:
         self.currentCard = self.cardSet[self.currentIndex]
         self.questionText.insert(Tkinter.INSERT, '\n' + self.currentCard[0])
         self.questionText.config(state= Tkinter.DISABLED)
+        self.show_image()
     
 
 if __name__ == "__main__":
