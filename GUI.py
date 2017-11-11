@@ -76,6 +76,7 @@ class gengoFlashApp_tk:
         
         self.entry.focus_set()
         self.entry.selection_range(0, Tkinter.END)
+        
     
     def add_set(self):
         addSetToDatabase(self.entryVariable.get(), self.language.get())
@@ -196,14 +197,29 @@ class CardWindow:
         
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
+        
+        self.image_path_pairs = {0: None, 1: None}
+        for i in range(len(self.cardSet)):
+            self.image_path_pairs[i] = ""
+            
 
     def show_image(self, path):
-        #window = self.master
-        #window.geometry("485x300")
-        img = ImageTk.PhotoImage(Image.open(path))
-        self.imagePanel = Tkinter.Label(self.frame1, image = img)
-        self.imagePanel.image = img
-        self.imagePanel.grid(column = 0, row = 1)
+        #refresh
+        for label in self.frame1.grid_slaves():
+            if int(label.grid_info()["row"]) < 6:
+                label.grid_forget()
+                
+        #path = self.image_path_pairs.get(self.currentIndex)
+        if (path != ""):
+            img = ImageTk.PhotoImage(Image.open(path))
+            imagePanel = Tkinter.Label(self.frame1, image = img)
+            imagePanel.image = img
+            imagePanel.grid(column = 0, row = 1)
+        else:
+            notFound = Tkinter.Text(self.frame1, width = 40, height = 4)
+            notFound.tag_configure("center", justify='center')
+            notFound.insert("1.0", "No Images to Show", "center")
+            notFound.grid(column = 0, row = 4)
 
 
 
@@ -215,11 +231,10 @@ class CardWindow:
         return paths;
         
     def image_select(self):
-        window = self.master
+        
         #refresh
-        self.imagePanel.grid_forget()
         for label in self.frame1.grid_slaves():
-            if int(label.grid_info()["row"]) > 6:
+            if int(label.grid_info()["row"]) < 6:
                 label.grid_forget()
         
         img_sample = ImageTk.PhotoImage(Image.open("ox.jpg"))
@@ -274,9 +289,9 @@ class CardWindow:
             image_orig2 = Image.open(path_array[1])
             resized2 = image_orig2.resize((125, 100), Image.ANTIALIAS)
             img2 = ImageTk.PhotoImage(resized2)
-            self.imagePanel1 = Tkinter.Label(window, image = img1, text = "Image 1")
+            self.imagePanel1 = Tkinter.Label(self.frame1, image = img1, text = "Image 1")
             self.imagePanel1.image = img1
-            self.imagePanel2 = Tkinter.Label(window, image = img2, text = "Image 2")
+            self.imagePanel2 = Tkinter.Label(self.frame1, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
             ImgButton1.config(image = img1)
             ImgButton2.config(image = img2)
@@ -294,11 +309,11 @@ class CardWindow:
             image_orig3 = Image.open(path_array[2])
             resized3 = image_orig3.resize((125, 100), Image.ANTIALIAS)
             img3 = ImageTk.PhotoImage(resized3)
-            self.imagePanel1 = Tkinter.Label(window, image = img1, text = "Image 1")
+            self.imagePanel1 = Tkinter.Label(self.frame1, image = img1, text = "Image 1")
             self.imagePanel1.image = img1
-            self.imagePanel2 = Tkinter.Label(window, image = img2, text = "Image 2")
+            self.imagePanel2 = Tkinter.Label(self.frame1, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
-            self.imagePanel3 = Tkinter.Label(window, image = img3, text = "Image 3")
+            self.imagePanel3 = Tkinter.Label(self.frame1, image = img3, text = "Image 3")
             self.imagePanel3.image = img3
             ImgButton1.config(image = img1)
             ImgButton2.config(image = img2)
@@ -309,7 +324,6 @@ class CardWindow:
 
             
         if (numImage == 4):
-            
             image_orig1 = Image.open(path_array[0])
             resized1 = image_orig1.resize((125, 100), Image.ANTIALIAS)
             img1 = ImageTk.PhotoImage(resized1)
@@ -322,13 +336,13 @@ class CardWindow:
             image_orig4 = Image.open(path_array[3])
             resized4 = image_orig4.resize((125, 100), Image.ANTIALIAS)
             img4 = ImageTk.PhotoImage(resized4)
-            self.imagePanel1 = Tkinter.Label(window, image = img1, text = "Image 1")
+            self.imagePanel1 = Tkinter.Label(self.frame1, image = img1, text = "Image 1")
             self.imagePanel1.image = img1
-            self.imagePanel2 = Tkinter.Label(window, image = img2, text = "Image 2")
+            self.imagePanel2 = Tkinter.Label(self.frame1, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
-            self.imagePanel3 = Tkinter.Label(window, image = img3, text = "Image 3")
+            self.imagePanel3 = Tkinter.Label(self.frame1, image = img3, text = "Image 3")
             self.imagePanel3.image = img3
-            self.imagePanel4 = Tkinter.Label(window, image = img4, text = "Image 4")
+            self.imagePanel4 = Tkinter.Label(self.frame1, image = img4, text = "Image 4")
             self.imagePanel4.image = img4
             ImgButton1.config(image = img1)
             ImgButton2.config(image = img2)
@@ -342,6 +356,7 @@ class CardWindow:
         
     def image_button(self, value):
         print("button pressed: "+ str(value))
+        #self.show_image()
         
     def propose_translation(self):
         if (self.answerText['state'] == 'normal'):
