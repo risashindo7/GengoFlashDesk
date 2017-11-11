@@ -11,10 +11,7 @@ from nltk.corpus import wordnet
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run DeepFM.")
-    parser.add_argument('--titles', nargs='?', default='retrieval/data/SETTITLES.ALL',
-                        help='Path of the document file with titiles.')
-    parser.add_argument('--wholesets', nargs='?', default='retrieval/data/WHOLESETS.ALL',
-                        help='Path of the document file with set content.')
+
     parser.add_argument('--spanish_titles', nargs='?', default='retrieval/data/data_spanish/SETTITLES.ALL',
                         help='Path of the document file with titiles for spanish.')
     parser.add_argument('--spanish_wholesets', nargs='?', default='retrieval/data/data_spanish/WHOLESETS.ALL',
@@ -121,28 +118,27 @@ def performQuery(queries, cardQueries, language):
     titles = load_data(chooseLanguage(0, language))
     cards = load_data(chooseLanguage(1, language))
 #   support synonyms
-#    def get_synonyms(word):
-#        synonyms = []
-#        for syn in wordnet.synsets(word.strip()):
-#            for l in syn.lemmas():
-#                synonyms.append(l.name())
-#        return synonyms
-#    
-#   titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 5)) , titles)
+    def get_synonyms(word):
+        synonyms = []
+        for syn in wordnet.synsets(word.strip()):
+            for l in syn.lemmas():
+                synonyms.append(l.name())
+        return synonyms
     
-    vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text) 
+    titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 5)) , titles)
+    
+    vec_titles, vec_queries = tf_idf(titles_with_synonyms, queries, tokenize_text) 
     vec_cards, vec_card_queries = tf_idf(cards, cardQueries, tokenize_text)
     
     sim_matrix_titles = cosine_similarity(vec_titles, vec_queries)
     sim_matrix_content = cosine_similarity(vec_cards, vec_card_queries)
-    
-    sim_matrix = sim_matrix_titles + sim_matrix_content
+    sim_matrix = 2*sim_matrix_titles + sim_matrix_content
     
     ranked_documents = np.argsort(-sim_matrix[:, 0])
     listed = [sim_matrix[i] for i in ranked_documents[:10]]
     
     flat_list = [item for sublist in listed for item in sublist]
-    non_zero_vals = len(list(filter(lambda x: x > 0.3, flat_list)))
+    non_zero_vals = len(list(filter(lambda x: x > 0, flat_list)))
     
     return (ranked_documents[:non_zero_vals] + 1)
 

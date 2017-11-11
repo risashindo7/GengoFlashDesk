@@ -356,7 +356,6 @@ class CardWindow:
 
         
     def image_button(self, value):
-        print("path chosen: "+ value)
         self.image_path_pairs[self.currentIndex] = value
         self.show_image()
         
