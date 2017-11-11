@@ -158,11 +158,9 @@ class CardWindow:
         menubar.add_command(label="Edit", command = self.edit_card)
         menubar.add_command(label="Translate", command = self.propose_translation)
         menubar.add_command(label="Save edit", command = self.confirm_edit_card)
-<<<<<<< HEAD
-        menubar.add_command(label="Add Image", command = self.get_picture)
-=======
+
         menubar.add_command(label="Add/Edit Image", command = self.image_select)
->>>>>>> master
+
 
         # display the menu
         master.config(menu=menubar)
@@ -195,13 +193,8 @@ class CardWindow:
         window.resizable(width = True, height = True)
         window.configure(background='grey')
         
-<<<<<<< HEAD
-        path = "tiger.jpg"
-        self.anotherPath = "0020_2462706533.jpg"
-=======
         path = "ox.jpg"
         self.show_image(path)
->>>>>>> master
         
         # add space between rows
         self.frame.grid_rowconfigure(3, minsize=20)
@@ -213,27 +206,19 @@ class CardWindow:
         self.imagePanel = Tkinter.Label(window, image = img)
         self.imagePanel.image = img
         self.imagePanel.grid(column = 0, row = 4)
-<<<<<<< HEAD
-        #self.imagePanel.place(x = 0, y = 4)
-        #self.imagePanel.pack(side="top", fill="both", expand=True)
-        # add space between rows
-        self.frame.grid_rowconfigure(3, minsize=20)
-
-    def get_picture(self):
-        textToQueryForImage = self.questionText.get(1.0 ,Tkinter.END)
-        paths = imageQuery([textToQueryForImage])
-        if (len(paths) > 0):
-            img = ImageTk.PhotoImage("0020_2462706533.jpg")
-            #Image.open(path.relpath(paths[0])))
-            print(textToQueryForImage)
-            print(paths[0])
-            self.imagePanel.image = img
-=======
         #centering image
         window.grid_rowconfigure(3, weight=1)
         window.grid_rowconfigure(5, weight=1)
         window.grid_columnconfigure(3, weight=1)
         window.grid_columnconfigure(5, weight=1)
+
+
+    def get_picture(self):
+        textToQueryForImage = self.questionText.get(1.0 ,Tkinter.END)
+        paths = imageQuery([textToQueryForImage])
+        if (len(paths) > 0):
+            " "
+
         
     def image_select(self):
         window = self.master
@@ -260,8 +245,7 @@ class CardWindow:
             self.imagePanel.image = img
             self.imagePanel.grid(column = 0, row = 5)
             ImgButton1.grid(column = 0, row = 4)
->>>>>>> master
-
+            
             #centering image
             window.geometry("595x500")
             window.grid_rowconfigure(4, weight=1)
@@ -366,7 +350,7 @@ class CardWindow:
             self.answerText.insert(Tkinter.INSERT, '\n' + result)
 
     def delete_card(self):
-        removeCardFromDatabase(self.currentCard, self.language)
+        #removeCardFromDatabase(self.currentCard, self.language)
         self.cardSet.remove(self.currentCard)
         if (len(self.cardSet) == 0):
             self.add_card()
@@ -375,7 +359,7 @@ class CardWindow:
 
 
     def add_card(self):
-        addCardToDatabase(self.indexInDatabase, 'Question', 'Answer', self.language)
+        #addCardToDatabase(self.indexInDatabase, 'Question', 'Answer', self.language)
         self.cardSet.append(['Question','Answer'])
         self.currentIndex = abs(len(self.cardSet) - 2)
         self.next_card()
@@ -384,7 +368,7 @@ class CardWindow:
     def confirm_edit_card(self):
         changedQuestion = self.questionText.get(1.0 ,Tkinter.END).strip()
         changedAnswer= self.answerText.get(1.0 , Tkinter.END).strip()
-        changeCardInDatabase(self.indexInDatabase, self.currentCard, changedQuestion, changedAnswer, self.language)
+        #changeCardInDatabase(self.indexInDatabase, self.currentCard, changedQuestion, changedAnswer, self.language)
         self.currentCard[0] = changedQuestion
         self.currentCard[1] = changedAnswer
         
