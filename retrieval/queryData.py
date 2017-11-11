@@ -120,8 +120,6 @@ def tf_idf(docs, queries, tokenizer):
 def performQuery(queries, cardQueries, language):
     titles = load_data(chooseLanguage(0, language))
     cards = load_data(chooseLanguage(1, language))
-    print(queries)
-    print(cardQueries)
 #   support synonyms
 #    def get_synonyms(word):
 #        synonyms = []
@@ -132,14 +130,13 @@ def performQuery(queries, cardQueries, language):
 #    
 #   titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 5)) , titles)
     
-    vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text)
-    
+    vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text) 
     vec_cards, vec_card_queries = tf_idf(cards, cardQueries, tokenize_text)
-
+    
     sim_matrix_titles = cosine_similarity(vec_titles, vec_queries)
     sim_matrix_content = cosine_similarity(vec_cards, vec_card_queries)
     
-    sim_matrix = 2*sim_matrix_titles + sim_matrix_content
+    sim_matrix = sim_matrix_titles + sim_matrix_content
     
     ranked_documents = np.argsort(-sim_matrix[:, 0])
     listed = [sim_matrix[i] for i in ranked_documents[:10]]
