@@ -129,7 +129,7 @@ def performQuery(queries, cardQueries, language):
                 synonyms.append(l.name())
         return (synonyms)
     
-    titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 15)) , titles)
+    titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 5)) , titles)
     
     vec_titles, vec_queries = tf_idf(titles_with_synonyms, queries, tokenize_text)
     
@@ -138,7 +138,7 @@ def performQuery(queries, cardQueries, language):
     sim_matrix_titles = cosine_similarity(vec_titles, vec_queries)
     sim_matrix_content = cosine_similarity(vec_cards, vec_card_queries)
     
-    sim_matrix = sim_matrix_titles + sim_matrix_content
+    sim_matrix = 2*sim_matrix_titles + sim_matrix_content
     
     ranked_documents = np.argsort(-sim_matrix[:, 0])
     listed = [sim_matrix[i] for i in ranked_documents[:10]]

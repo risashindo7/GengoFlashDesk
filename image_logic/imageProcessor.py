@@ -1,7 +1,7 @@
 import argparse
 import glob
 import os
-from image_logic.labelExtractor import extract_labels
+#from image_logic.labelExtractor import extract_labels
 
 
 def parse_args():
@@ -27,5 +27,5 @@ def load_image_list(path):
 if __name__ == '__main__':
     args = parse_args()
     # load images in datbase
-    images = load_image_list(args.images)
-    extract_labels(images)
+    #images = load_image_list(args.images)
+    #extract_labels(images)
