@@ -125,6 +125,7 @@ class gengoFlashApp_tk:
         indexOfSet = (self.radioVariable.get() - 1)
         cardSet = retrieveCards(indexOfSet, self.language.get())
         self.new_card_window(cardSet, indexOfSet, self.language.get())
+        self.radioVariable.set(0)
 
 
     def new_card_window(self, cardSet, indexOfSet, language):
