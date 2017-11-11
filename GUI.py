@@ -187,12 +187,15 @@ class CardWindow:
         self.answerText.grid(column = 2, row = 0)
         self.answerText.config(state= Tkinter.DISABLED)
         
-        #add space for image
-        window = self.master
-        #window.title("Card Image")
-        window.geometry("550x400")
-        window.resizable(width = True, height = True)
-        window.configure(background='grey')
+#        #add space for image
+#        window = self.master
+#        #window.title("Card Image")
+#        window.geometry("550x400")
+#        window.resizable(width = True, height = True)
+#        window.configure(background='grey')
+
+        self.frame1 = Tkinter.Frame(self.master)
+        self.frame1.grid()
         
         path = "ox.jpg"
         self.show_image(path)
@@ -201,17 +204,17 @@ class CardWindow:
         self.frame.grid_rowconfigure(3, minsize=20)
 
     def show_image(self, path):
-        window = self.master
-        window.geometry("485x300")
+        #window = self.master
+        #window.geometry("485x300")
         img = ImageTk.PhotoImage(Image.open(path))
-        self.imagePanel = Tkinter.Label(window, image = img)
+        self.imagePanel = Tkinter.Label(self.frame1, image = img)
         self.imagePanel.image = img
-        self.imagePanel.grid(column = 0, row = 4)
+        self.imagePanel.grid(column = 0, row = 1)
         #centering image
-        window.grid_rowconfigure(3, weight=1)
-        window.grid_rowconfigure(5, weight=1)
-        window.grid_columnconfigure(3, weight=1)
-        window.grid_columnconfigure(5, weight=1)
+#        window.grid_rowconfigure(3, weight=1)
+#        window.grid_rowconfigure(5, weight=1)
+#        window.grid_columnconfigure(3, weight=1)
+#        window.grid_columnconfigure(5, weight=1)
 
 
     def get_picture(self):
@@ -226,33 +229,35 @@ class CardWindow:
         #refresh
         self.imagePanel.grid_forget()
         
-        frame2 = Tkinter.Frame(self.frame, bg = "grey")
-        frame2.grid()
-        ImgButton1 = Tkinter.Button(frame2, text = u"Image 1",
-                                width = 10, bg = "white")
-        ImgButton2 = Tkinter.Button(frame2, text = u"Image 2",
-                                width = 10, bg = "white")
-        ImgButton3 = Tkinter.Button(frame2, text = u"Image 3",
-                                width = 10, bg = "white")
-        ImgButton4 = Tkinter.Button(frame2, text = u"Image 4",
-                                width = 10, bg = "white")
+        img_sample = ImageTk.PhotoImage(Image.open("ox.jpg"))
+        
+        ImgButton1 = Tkinter.Button(self.frame1, image = img_sample,
+                                height = 100, width = 125, bg = "white", 
+                                command = lambda: self.image_button(1))
+        ImgButton2 = Tkinter.Button(self.frame1, image = img_sample,
+                                height = 100, width = 125, bg = "white", 
+                                command = lambda: self.image_button(2))
+        ImgButton3 = Tkinter.Button(self.frame1, image = img_sample,
+                                height = 100, width = 125, bg = "white", 
+                                command = lambda: self.image_button(3))
+        ImgButton4 = Tkinter.Button(self.frame1, image = img_sample,
+                                height = 100, width = 125, bg = "white", 
+                                command = lambda: self.image_button(4))
         #path withdraw function here ===============================
         path_array = ["ox.jpg", "cat.jpg", "tiger.jpg", "ox.jpg"]
-        numImage = len(path_array)
+        numImage = 4 #len(path_array)
         
         if (numImage == 1):
-            img = ImageTk.PhotoImage(Image.open(path_array[0]))
-            self.imagePanel = Tkinter.Label(window, image = img, text = "Image 1")
-            self.imagePanel.image = img
-            self.imagePanel.grid(column = 0, row = 5)
+            image_orig1 = Image.open(path_array[0])
+            resized1 = image_orig1.resize((125, 100), Image.ANTIALIAS)
+            img1 = ImageTk.PhotoImage(resized1)
+            
+            self.imagePanel = Tkinter.Label(self.frame1, image = img1, text = "Image 1")
+            self.imagePanel.image = img1
+            #self.imagePanel.grid(column = 0, row = 5)
+            ImgButton1.config(image = img1)
             ImgButton1.grid(column = 0, row = 4)
             
-            #centering image
-            window.geometry("595x500")
-            window.grid_rowconfigure(4, weight=1)
-            window.grid_rowconfigure(6, weight=1)
-            window.grid_columnconfigure(4, weight=1)
-            window.grid_columnconfigure(6, weight=1)
             
         if (numImage == 2):
             image_orig1 = Image.open(path_array[0])
@@ -263,18 +268,13 @@ class CardWindow:
             img2 = ImageTk.PhotoImage(resized2)
             self.imagePanel1 = Tkinter.Label(window, image = img1, text = "Image 1")
             self.imagePanel1.image = img1
-            self.imagePanel1.grid(column = 0, row = 5)
             self.imagePanel2 = Tkinter.Label(window, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
-            self.imagePanel2.grid(column = 0, row = 6)
+            ImgButton1.config(image = img1)
+            ImgButton2.config(image = img2)
             ImgButton1.grid(column = 0, row = 4)
             ImgButton2.grid(column = 1, row = 4)
-            #centering image
-            window.geometry("595x500")
-            window.grid_rowconfigure(4, weight=1)
-            window.grid_rowconfigure(7, weight=1)
-            window.grid_columnconfigure(4, weight=1)
-            window.grid_columnconfigure(7, weight=1)
+
             
         if (numImage == 3):
             image_orig1 = Image.open(path_array[0])
@@ -288,22 +288,17 @@ class CardWindow:
             img3 = ImageTk.PhotoImage(resized3)
             self.imagePanel1 = Tkinter.Label(window, image = img1, text = "Image 1")
             self.imagePanel1.image = img1
-            self.imagePanel1.grid(column = 0, row = 5)
             self.imagePanel2 = Tkinter.Label(window, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
-            self.imagePanel2.grid(column = 0, row = 6)
             self.imagePanel3 = Tkinter.Label(window, image = img3, text = "Image 3")
             self.imagePanel3.image = img3
-            self.imagePanel3.grid(column = 0, row = 7)
+            ImgButton1.config(image = img1)
+            ImgButton2.config(image = img2)
+            ImgButton3.config(image = img3)
             ImgButton1.grid(column = 0, row = 4)
             ImgButton2.grid(column = 1, row = 4)
             ImgButton3.grid(column = 2, row = 4)
-            #centering image
-            window.geometry("595x525")
-            window.grid_rowconfigure(4, weight=1)
-            window.grid_rowconfigure(8, weight=1)
-            window.grid_columnconfigure(4, weight=1)
-            window.grid_columnconfigure(8, weight=1)
+
             
         if (numImage == 4):
             image_orig1 = Image.open(path_array[0])
@@ -320,27 +315,25 @@ class CardWindow:
             img4 = ImageTk.PhotoImage(resized4)
             self.imagePanel1 = Tkinter.Label(window, image = img1, text = "Image 1")
             self.imagePanel1.image = img1
-            self.imagePanel1.grid(column = 0, row = 5)
             self.imagePanel2 = Tkinter.Label(window, image = img2, text = "Image 2")
             self.imagePanel2.image = img2
-            self.imagePanel2.grid(column = 0, row = 6)
             self.imagePanel3 = Tkinter.Label(window, image = img3, text = "Image 3")
             self.imagePanel3.image = img3
-            self.imagePanel3.grid(column = 0, row = 7)
             self.imagePanel4 = Tkinter.Label(window, image = img4, text = "Image 4")
             self.imagePanel4.image = img4
-            self.imagePanel4.grid(column = 0, row = 8)
+            ImgButton1.config(image = img1)
+            ImgButton2.config(image = img2)
+            ImgButton3.config(image = img3)
+            ImgButton4.config(image = img4)
             ImgButton1.grid(column = 0, row = 4)
             ImgButton2.grid(column = 1, row = 4)
-            ImgButton3.grid(column = 2, row = 4)
-            ImgButton4.grid(column = 3, row = 4)
-            #centering image
-            window.geometry("595x525")
-            window.grid_rowconfigure(4, weight=1)
-            window.grid_rowconfigure(9, weight=1)
-            window.grid_columnconfigure(4, weight=1)
-            window.grid_columnconfigure(9, weight=1)
+            ImgButton3.grid(column = 0, row = 5)
+            ImgButton4.grid(column = 1, row = 5)
+
         
+    def image_button(self, value):
+
+        print("button pressed: "+ str(value))
         
     def propose_translation(self):
         if (self.answerText['state'] == 'normal'):
