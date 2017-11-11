@@ -1,1 +1,4 @@
 retrieval/__pycache__/
+image_logic/__pycache__/labelExtractor.cpython-35.pyc
+image_logic/__pycache__/image_searcher.cpython-35.pyc
+image_logic/__pycache__/imageProcessor.cpython-35.pyc
