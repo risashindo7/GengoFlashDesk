@@ -187,12 +187,6 @@ class CardWindow:
         self.answerText.grid(column = 2, row = 0)
         self.answerText.config(state= Tkinter.DISABLED)
         
-#        #add space for image
-#        window = self.master
-#        #window.title("Card Image")
-#        window.geometry("550x400")
-#        window.resizable(width = True, height = True)
-#        window.configure(background='grey')
 
         self.frame1 = Tkinter.Frame(self.master)
         self.frame1.grid()
@@ -210,11 +204,7 @@ class CardWindow:
         self.imagePanel = Tkinter.Label(self.frame1, image = img)
         self.imagePanel.image = img
         self.imagePanel.grid(column = 0, row = 1)
-        #centering image
-#        window.grid_rowconfigure(3, weight=1)
-#        window.grid_rowconfigure(5, weight=1)
-#        window.grid_columnconfigure(3, weight=1)
-#        window.grid_columnconfigure(5, weight=1)
+
 
 
     def get_picture(self):
@@ -222,12 +212,15 @@ class CardWindow:
         paths = imageQuery([textToQueryForImage])
         if (len(paths) > 0):
             " "
-
+        return paths;
         
     def image_select(self):
         window = self.master
         #refresh
         self.imagePanel.grid_forget()
+        for label in self.frame1.grid_slaves():
+            if int(label.grid_info()["row"]) > 6:
+                label.grid_forget()
         
         img_sample = ImageTk.PhotoImage(Image.open("ox.jpg"))
         
@@ -243,11 +236,26 @@ class CardWindow:
         ImgButton4 = Tkinter.Button(self.frame1, image = img_sample,
                                 height = 100, width = 125, bg = "white", 
                                 command = lambda: self.image_button(4))
-        #path withdraw function here ===============================
-        path_array = ["ox.jpg", "cat.jpg", "tiger.jpg", "ox.jpg"]
-        numImage = 4 #len(path_array)
+        notFound = Tkinter.Text(self.frame1, width = 40, height = 4)
+        notFound.tag_configure("center", justify='center')
+        notFound.insert("1.0", "No Relevant Images Found", "center")
+        
+        path_array = self.get_picture();
+        numImage =  len(path_array)
+        
+        if (numImage == 0):
+            #self.frame1.grid_forget()
+            #self.frame1.grid()
+            ImgButton1.grid_remove()
+            ImgButton2.grid_remove()
+            ImgButton3.grid_remove()
+            ImgButton4.grid_remove()
+            
+            notFound.grid(column = 0, row = 4)
+            
         
         if (numImage == 1):
+            notFound.grid_forget()
             image_orig1 = Image.open(path_array[0])
             resized1 = image_orig1.resize((125, 100), Image.ANTIALIAS)
             img1 = ImageTk.PhotoImage(resized1)
@@ -301,6 +309,7 @@ class CardWindow:
 
             
         if (numImage == 4):
+            
             image_orig1 = Image.open(path_array[0])
             resized1 = image_orig1.resize((125, 100), Image.ANTIALIAS)
             img1 = ImageTk.PhotoImage(resized1)
@@ -332,7 +341,6 @@ class CardWindow:
 
         
     def image_button(self, value):
-
         print("button pressed: "+ str(value))
         
     def propose_translation(self):
