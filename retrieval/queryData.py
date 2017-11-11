@@ -120,18 +120,19 @@ def tf_idf(docs, queries, tokenizer):
 def performQuery(queries, cardQueries, language):
     titles = load_data(chooseLanguage(0, language))
     cards = load_data(chooseLanguage(1, language))
+    print(queries)
+    print(cardQueries)
+#   support synonyms
+#    def get_synonyms(word):
+#        synonyms = []
+#        for syn in wordnet.synsets(word.strip()):
+#            for l in syn.lemmas():
+#                synonyms.append(l.name())
+#        return synonyms
+#    
+#   titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 5)) , titles)
     
-    #support synonyms
-    def get_synonyms(word):
-        synonyms = []
-        for syn in wordnet.synsets(word.strip()):
-            for l in syn.lemmas():
-                synonyms.append(l.name())
-        return (synonyms)
-    
-    titles_with_synonyms = map(lambda x: " ".join(get_synonyms(x) + ([x] * 5)) , titles)
-    
-    vec_titles, vec_queries = tf_idf(titles_with_synonyms, queries, tokenize_text)
+    vec_titles, vec_queries = tf_idf(titles, queries, tokenize_text)
     
     vec_cards, vec_card_queries = tf_idf(cards, cardQueries, tokenize_text)
 

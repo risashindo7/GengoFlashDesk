@@ -22,8 +22,6 @@ def extract_vectors(image_path, tensor_names):
             useful tensor_names: 'softmax:0', 'pool_3:0'
             'softmax:0': A tensor containing the normalized prediction across
             1000 labels, called concept vector;
-            'pool_3:0': A tensor containing the next-to-last layer containing
-            2048 float description of the image, called feature vector.
     Returns
     -------
         vector: dict

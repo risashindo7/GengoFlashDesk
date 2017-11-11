@@ -2,6 +2,7 @@
 
 import tkinter as Tkinter
 from retrieval.queryData import performQuery, retrieveCards, retrieveSetNames
+from retrieval.storage import addSetToDatabase
 #from retrieval.storage import changeCardInDatabase, addCardToDatabase, removeCardFromDatabase, addSetToDatabase
 from googletrans import Translator
 from PIL import ImageTk, Image
@@ -110,12 +111,12 @@ class gengoFlashApp_tk:
 
     def searchForKeywords(self):
         query = self.entryVariable.get()
-        if (query == self.DEFAULT_SET_TEXT):
-            query = "XXX"
+        if (query == self.DEFAULT_SET_TEXT or query == ""):
+            query = ""
             
         queryCard = self.entryVariableCard.get()
-        if (queryCard == self.DEFAULT_CARD_TEXT):
-            queryCard = "XXX"
+        if (queryCard == self.DEFAULT_CARD_TEXT or queryCard == ""):
+            queryCard = ""
         
         listOfResultIndices = performQuery([query], [queryCard] , self.language.get())
         self.createRadioButtons(listOfResultIndices)     
