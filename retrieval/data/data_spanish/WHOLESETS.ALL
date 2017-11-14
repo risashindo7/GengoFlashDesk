@@ -329,11 +329,21 @@ banana - El platano;
 limon - El limon
 .I 23
 .W
-giraffe - jifara;
-elephant - elefante;
-snake - serpiente;
+dog - el perro;
+cat - el gato;
+ant - la hormiga;
+cow - la vaca;
+whale - la ballena;
+horse - el caballo;
+zebra - la cebra;
+lion - el león;
+tiger - el tigre;
+frog  - la rana;
+giraffe - la jirafa;
+elephant - el elefante;
+snake - la serpiente;
 crocodile - cocodrilo;
-dolphin - delfin;
+dolphin - el delfín;
 tortoise - tortuga
 .I 24
 .W
@@ -744,3 +754,54 @@ to practise - practicar;
 to ask (a question) - preguntar;
 to prepare - preparar;
 to return - regresar
+.I 41
+.W
+wedding - la boda;
+to get married - casarse;
+bride - la novia;
+groom - el novio;
+maid of honor - la dama de honor;
+godfather/best man - el padrino;
+godmother/matron of honor - la madrina;
+ceremonia - la ceremonia;
+mass - la misa;
+church - la iglesia;
+religion - la religión;
+priest - el sacerdote;
+synogogue - la sinagoga;
+rabbi - el rabino;
+reception - la recepción;
+luxurious - lujoso;
+elegant - elegante;
+hall - el salón;
+orchestra/band - la orquestra;
+honeymoon - la luna de miel;
+engagement - el compromiso;
+to toast - brindar;
+to congratulate - felicitar;
+congratulations - Felicitaciones;
+congratulations - Enhorabuena
+.I 42
+.W
+College Application - Solicitud de Ingreso a Universidad;
+Road Trip - El Viaje;
+To Decide - Decidir;
+Major - La Carrera;
+Campus - El Campus;
+Scholarship - La Beca;
+Bachelor's Degree - La Licenciatura;
+College Visit - La Visita a la Universidad;
+Financial Aid - La Subvención;
+To Move - Mudarse;
+to snore - roncar;
+to change clothes - cambiar ropa;
+to lay oneself down - acostarse;
+pillow - almohada;
+blanket - la manta, la cobija;
+telephone charger - cargador de teléfono;
+headphones - audífonos, auriculares;
+slippers - los zapatillas, pantuflas;
+robe - bata;
+waist - la cintura;
+snack - merienda, tentempié;
+couch - sofá
